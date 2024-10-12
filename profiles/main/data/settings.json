@@ -1,0 +1,311 @@
+{
+  // ----- Most Important Settings for linting and formatting ----- //
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  "editor.formatOnType": true,
+  "html.format.templating": true,
+  "editor.formatOnPaste": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "eslint.run": "onSave",
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    }
+  },
+
+  // ----- token color customaization ----- //
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
+  // change later if needed
+  "css.validate": false,
+
+  // ----- fonts settings ----- //
+  "editor.fontFamily": "Comic Code,Recursive Mono Casual,Cascadia Code,consolas",
+  "editor.fontWeight": "360",
+  "editor.lineHeight": 1.7,
+  "editor.tabSize": 2,
+  "prettier.tabWidth": 2,
+
+  //   👇 Cascaida-Code & Recursive-mono,
+  "editor.fontLigatures": "'dlig','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10','ss11','zero'",
+  "editor.fontSize": 16,
+
+  // ----- Custom CSS and JS Loader Settings ----- //
+  "vscode_custom_css.imports": [
+    "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css/style.css"
+  ],
+
+  // ----- UI settings ----- //
+  "breadcrumbs.enabled": false,
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 1.3, // default Profile range: 2 - 3, IK Profile range: 1.3 - 2
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "workbench.preferredLightColorTheme": "Next.Js | Unified Glow",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.layoutControl.type": "toggles",
+  "editor.renderWhitespace": "none",
+  "workbench.editor.tabActionCloseVisibility": true,
+  "explorer.decorations.colors": false,
+  "git.decorations.enabled": true,
+  "window.commandCenter": false,
+  "window.title": "${activeEditorMedium}",
+  "workbench.editor.labelFormat": "short",
+  "editor.occurrencesHighlight": "off",
+  "editor.padding.top": 6,
+  "editor.lineNumbers": "on",
+  "workbench.editor.showTabs": "multiple",
+
+  // customs color settings //
+  "workbench.colorCustomizations": {
+    "editorBracketMatch.background": "#ffffff1a",
+    "editorBracketMatch.border": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editor.lineHighlightBackground": "#0000",
+    "editor.lineHighlightBorder": "#ffffff0a",
+    // git
+    "editorGutter.addedBackground": "#0000",
+    "editorGutter.deletedBackground": "#0000",
+    "editorGutter.modifiedBackground": "#0000"
+  },
+  "typescript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "merge-conflict.codeLens.enabled": true,
+
+  // ----- InlayHint settings ----- //
+  "editor.inlayHints.enabled": "off",
+  "editor.inlayHints.fontFamily": "Recursive Sans Casual",
+  "editor.inlayHints.padding": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+
+  // ----- Layouts settings ----- //
+  "editor.cursorStyle": "line",
+  "errorLens.enableOnDiffView": true,
+  "errorLens.ignoreUntitled": true,
+  "errorLens.margin": "2ch",
+  "errorLens.removeLinebreaks": false,
+  "editor.showFoldingControls": "mouseover",
+  "editor.glyphMargin": false,
+
+  // ----- Git settings ----- //
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "editor.scrollbar.verticalScrollbarSize": 15,
+  "markdown.preview.breaks": true,
+  "editor.minimap.enabled": false,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.cursorBlinking": "expand",
+  "editor.defaultColorDecorators": true,
+
+  // ----- Tailwind settings ----- //
+  "scss.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^]*)\\)", "(?:'|\"|`)([^\"'`]*)(?:'|\"|`)"],
+    ["classnames\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    ["toastClassName\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
+    "tailwind\\('([^)]*)\\')",
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["classList={{([^;]*)}}", "\\s*?[\"'`]([^\"'`]*).*?:"],
+    ["variant={{([^;]*)}}", "\\s*?[\"'`]([^\"'`]*).*?:"],
+    ["variants={{([^;]*)}}", "\\s*?[\"'`]([^\"'`]*).*?:"],
+    ["classList.(?:add|remove)\\(([^)]*)\\)", "(?:'|\"|`)([^\"'`]*)(?:'|\"|`)"],
+    "@tw\\s\\*/\\s+[\"'`]([^\"'`]*)",
+    "tw`([^`]*)", // tw`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+    "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+  ],
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "toastClassName",
+    "bodyClassName",
+    "ngClass",
+    "classList",
+    "classes",
+    "cva",
+    "cn",
+    "tw",
+    "styled"
+  ],
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+
+  // ----- TODO Highlihgt settings (ExtName: todo-tree) ----- //
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "fontStyle": "italic",
+      "iconColour": "#65a30d",
+      "gutterIcon": true
+    },
+    "BUG": {
+      "icon": "bug",
+      "fontStyle": "italic",
+      "iconColour": "#f43f5e",
+      "gutterIcon": true
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame",
+      "fontStyle": "italic",
+      "iconColour": "#fcd34d",
+      "gutterIcon": true
+    },
+    "XXX": {
+      "icon": "x"
+    },
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    }
+  },
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.highlights.backgroundColourScheme": [
+    "#f43f5e",
+    "orange",
+    "#fcd34d",
+    "#65a30d",
+    "blue",
+    "indigo",
+    "violet"
+  ],
+  "todo-tree.highlights.foregroundColourScheme": [
+    "#000000af",
+    "#000000af",
+    "#000000af",
+    "#000000af",
+    "#000000af",
+    "#000000af",
+    "#000000af"
+  ],
+
+  // ----- Other settings ----- //
+  "editor.suggest.preview": true,
+  "editor.wordWrap": "on",
+  "html.format.enable": false,
+  "diffEditor.wordWrap": "on",
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "css.format.spaceAroundSelectorSeparator": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "window.autoDetectColorScheme": true,
+  "editor.fastScrollSensitivity": 15,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.guides.highlightActiveIndentation": "always",
+  "search.showLineNumbers": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.overviewRulerBorder": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "markdown.updateLinksOnFileMove.enabled": "always",
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true,
+    "ignore": true,
+    "snippets": true,
+    "properties": true,
+    "plaintext": true,
+    "prisma": true
+  },
+  "explorer.expandSingleFolderWorkspaces": false,
+  "explorer.autoReveal": true,
+  "editor.linkedEditing": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.autoRevealExclude": {
+    "**/.vscode/linenote": true,
+    "**/server": true
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "none",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "debug.showInlineBreakpointCandidates": false,
+  "debug.gutterMiddleClickAction": "none",
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.preferredHighContrastColorTheme": "Monokai Pro | Unified Glow",
+  "workbench.preferredHighContrastLightColorTheme": "Monokai Pro | Unified Glow",
+  "workbench.colorTheme": "Monokai Pro | Unified Glow",
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+  "markdown.preview.fontFamily": "recursive sans casual,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
+  "codeium.enableCodeLens": false,
+  "editor.codeLensFontFamily": "Recursive Sans Casual",
+  "editor.codeLensFontSize": 12,
+  "diffEditor.codeLens": true,
+  "markdown.preview.fontSize": 14,
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontFamily": "Recursive Mono Casual",
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.fontSize": 16,
+  "files.autoSave": "afterDelay",
+  "workbench.preferredDarkColorTheme": "Next.Js | Unified Glow",
+  "excalidraw.theme": "auto",
+  "workbench.iconTheme": "kawaii-vscode-icon-vscode",
+  "window.menuBarVisibility": "compact"
+}
