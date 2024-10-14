@@ -436,10 +436,6 @@
     "when": "editorLangId == 'markdown'"
   },
   {
-    "key": "shift+alt+s",
-    "command": "extension.createSnippet"
-  },
-  {
     "key": "ctrl+alt+win+n",
     "command": "-welcome.showNewFileEntries"
   },
@@ -655,5 +651,9 @@
     "key": "ctrl+k f",
     "command": "-workbench.action.closeFolder",
     "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "editor.action.surroundWithSnippet"
   }
 ]

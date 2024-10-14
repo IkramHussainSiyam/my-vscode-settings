@@ -1,36 +1,4 @@
 {
-  // ----- Most Important Settings for linting and formatting ----- //
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.tslint": "explicit",
-    "source.organizeImports": "explicit"
-  },
-
-  "editor.formatOnType": true,
-  "html.format.templating": true,
-  "editor.formatOnPaste": true,
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "eslint.run": "onSave",
-
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
-
-  "path-autocomplete.extensionOnImport": true,
-  "path-autocomplete.excludedItems": {
-    "*/.js": {
-      "when": "**"
-    },
-    "*/.jsx": {
-      "when": "**"
-    }
-  },
-
   // ----- token color customaization ----- //
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -43,12 +11,9 @@
     ]
   },
 
-  // change later if needed
-  "css.validate": false,
-
   // ----- fonts settings ----- //
   "editor.fontFamily": "Comic Code,Recursive Mono Casual,Cascadia Code,consolas",
-  "editor.fontWeight": "360",
+  "editor.fontWeight": "400",
   "editor.lineHeight": 1.7,
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
@@ -84,6 +49,41 @@
   "editor.padding.top": 6,
   "editor.lineNumbers": "on",
   "workbench.editor.showTabs": "multiple",
+
+  // ----- Most Important Settings for linting and formatting ----- //
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  "editor.formatOnType": true,
+  "html.format.templating": true,
+  "editor.formatOnPaste": true,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "eslint.run": "onSave",
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    }
+  },
+
+  // change later if needed
+  "css.validate": false,
 
   // customs color settings //
   "workbench.colorCustomizations": {
@@ -307,5 +307,28 @@
   "workbench.preferredDarkColorTheme": "Next.Js | Unified Glow",
   "excalidraw.theme": "auto",
   "workbench.iconTheme": "kawaii-vscode-icon-vscode",
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.customMenuBarAltFocus": false,
+  "liveServer.settings.donotShowInfoMsg": true
 }
