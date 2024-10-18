@@ -409,10 +409,6 @@
     "command": "-workbench.action.gotoLine"
   },
   {
-    "key": "ctrl+g ctrl+p",
-    "command": "github.publish"
-  },
-  {
     "key": "ctrl+o",
     "command": "-workbench.action.files.openFile",
     "when": "true"
@@ -635,10 +631,6 @@
     "command": "workbench.action.quickTextSearch"
   },
   {
-    "key": "ctrl+alt+s",
-    "command": "workbench.action.toggleStatusbarVisibility"
-  },
-  {
     "key": "ctrl+shift+alt+n",
     "command": "linenote.addNote"
   },
@@ -655,5 +647,13 @@
   {
     "key": "shift+alt+s",
     "command": "editor.action.surroundWithSnippet"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "pieces-vscode.searchPalette"
+  },
+  {
+    "key": "ctrl+g p",
+    "command": "git.pushTo"
   }
 ]

@@ -32,9 +32,7 @@
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 1.3, // default Profile range: 2 - 3, IK Profile range: 1.3 - 2
   "workbench.editor.splitInGroupLayout": "vertical",
-  "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "top",
-  "workbench.preferredLightColorTheme": "Next.Js | Unified Glow",
+  "workbench.preferredLightColorTheme": "Material Theme Darker High Contrast",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.type": "toggles",
@@ -289,9 +287,6 @@
   "debug.showInlineBreakpointCandidates": false,
   "debug.gutterMiddleClickAction": "none",
   "git.openRepositoryInParentFolders": "never",
-  "workbench.preferredHighContrastColorTheme": "Monokai Pro | Unified Glow",
-  "workbench.preferredHighContrastLightColorTheme": "Monokai Pro | Unified Glow",
-  "workbench.colorTheme": "Monokai Pro | Unified Glow",
   "markdown.preview.doubleClickToSwitchToEditor": false,
   "markdown.preview.fontFamily": "recursive sans casual,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
   "codeium.enableCodeLens": false,
@@ -304,9 +299,7 @@
   "workbench.layoutControl.enabled": false,
   "terminal.integrated.fontSize": 16,
   "files.autoSave": "afterDelay",
-  "workbench.preferredDarkColorTheme": "Next.Js | Unified Glow",
   "excalidraw.theme": "auto",
-  "workbench.iconTheme": "kawaii-vscode-icon-vscode",
   "window.menuBarVisibility": "compact",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
@@ -330,5 +323,23 @@
   },
   "security.workspace.trust.untrustedFiles": "open",
   "window.customMenuBarAltFocus": false,
-  "liveServer.settings.donotShowInfoMsg": true
+  "liveServer.settings.donotShowInfoMsg": true,
+  "pieces.cloudCapabilities": "Blended",
+  "pieces.telemetry": true,
+  "pieces.OS.launchOnStartup": "Yes",
+  "pieces.autocomplete": true,
+  "pieces.searchBy": "Name and Tags",
+  "pieces.searchDisplay": "Name, Tags, and Description",
+  "pieces.searchResultAction": "Insert snippet at cursor position",
+  "pieces.sidePanelViews.relatedMaterials": false,
+  "pieces.sidePanelViews.exploredMaterials": false,
+  "pieces.sidePanelViews.suggestedMaterials": false,
+  "pieces.snippetTree.viewAs": "Flat List",
+  "todo-tree.general.statusBar": "tags",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "workbench.editorAssociations": {
+    "*.db": "default"
+  },
+  "workbench.iconTheme": "kawaii-vscode-icon-bright"
 }
