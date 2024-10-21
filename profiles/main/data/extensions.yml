@@ -1,10 +1,4 @@
 disabled:
-  - id: GitHub.github-vscode-theme
-    uuid: 7328a705-91fc-49e6-8293-da6f112e482d
-  - id: IkramHussainSiyam.unified-glow-vscode-theme
-    uuid: cb2761d3-1782-412f-969e-68cc9edd5dfb
-  - id: ms-vsliveshare.vsliveshare
-    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: pomdtr.excalidraw-editor
     uuid: 3dc917d8-e986-4abf-8159-6fc2233995bd
   - id: Postman.postman-for-vscode
@@ -24,10 +18,6 @@ enabled:
     uuid: acab4f40-b6db-42ec-bcd1-01802cbdd988
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
-  - id: Equinusocio.vsc-material-theme
-    uuid: 45bfc9eb-5e03-487f-bffe-315fa6881d6a
-  - id: equinusocio.vsc-material-theme-icons
-    uuid: 6959958f-be4d-42c4-8aa4-dc2c2f086b0a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: formulahendry.auto-rename-tag
@@ -36,12 +26,16 @@ enabled:
     uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
   - id: IkramHussainSiyam.kawaiicon-vscode-icon
     uuid: 1443de72-f3fe-470e-a564-2d90c2a2754e
+  - id: IkramHussainSiyam.unified-glow-vscode-theme
+    uuid: cb2761d3-1782-412f-969e-68cc9edd5dfb
   - id: ionutvmi.path-autocomplete
     uuid: 0d1241e3-fa60-4f24-8f2a-6d7085677c48
   - id: MeshIntelligentTechnologiesInc.pieces-vscode
     uuid: 0c0d1bed-a084-4948-bbca-be49b0315f64
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
+  - id: ms-vsliveshare.vsliveshare
+    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: ritwickdey.LiveServer
     uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: usernamehw.errorlens
