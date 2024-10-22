@@ -331,7 +331,6 @@
   "pieces.sidePanelViews.relatedMaterials": false,
   "pieces.sidePanelViews.exploredMaterials": false,
   "pieces.sidePanelViews.suggestedMaterials": false,
-  "pieces.snippetTree.viewAs": "Flat List",
   "todo-tree.general.statusBar": "tags",
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
@@ -340,5 +339,6 @@
   },
   "pieces.code-lens": false,
   "files.autoSave": "afterDelay",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "window.newWindowDimensions": "inherit"
 }
