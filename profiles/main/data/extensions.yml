@@ -3,6 +3,8 @@ disabled:
     uuid: 3dc917d8-e986-4abf-8159-6fc2233995bd
   - id: Postman.postman-for-vscode
     uuid: 48fcb244-71c2-4877-aed3-29b36098a411
+  - id: ms-vsliveshare.vsliveshare
+    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: Prisma.prisma
     uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
   - id: YoavBls.pretty-ts-errors
@@ -18,6 +20,8 @@ enabled:
     uuid: acab4f40-b6db-42ec-bcd1-01802cbdd988
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: formulahendry.auto-rename-tag
@@ -34,11 +38,11 @@ enabled:
     uuid: 0c0d1bed-a084-4948-bbca-be49b0315f64
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
-  - id: ms-vsliveshare.vsliveshare
-    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: ritwickdey.LiveServer
     uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
+  - id: zjffun.snippetsmanager
+    uuid: 793158dc-f506-436a-a091-cbf664be9817
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb

@@ -12,178 +12,181 @@
   // 	],
   // 	"description": "Log output to console"
   // }
-
-	// -------------------------------------------------
+  // -------------------------------------------------
   // my custom snippets
   //--------------------------------------------------
-  "bullet comment": {
-    "prefix": "blcm",
-    "body": [
-      "/**",
-      " * $0",
-      " */"
-    ],
-    "description": "bullet comment",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "prisma mongodb id": {
-    "prefix": "prmoid",
-    "body": [
-      "id   String @id @default(auto()) @map(\"_id\") @db.ObjectId",
-    ],
-    "description": "prisma mongodb id",
-     "scope": "prisma"
-  },
-  "Next.js Layout Component": {
-  "prefix": "nextlayout",
-  "body": [
-    "import type { Metadata } from \"next\";",
-    "",
-    "export const metadata: Metadata = {",
-    "  title: \"${2:title}\",",
-    "};",
-    "",
-    "export default function ${1:Name}Layout({",
-    "  children,",
-    "}: {",
-    "  children: React.ReactNode;",
-    "}) {",
-    "  return <div>$0{children}</div>;",
-    "}",
-    ""
-  ],
-  "description": "Next.js Layout Component"
-},
-  "nextjs middleware template": {
-  "prefix": "nextmiddle",
-  "body": [
-    "import { NextRequest, NextResponse } from \"next/server\";",
-    "",
-    "export const middleware = (req: NextRequest) => {",
-    "  return NextResponse.next();",
-    "};",
-    "",
-    "export const config = {",
-    "  matcher: [\"/\"],",
-    "};",
-    ""
-  ],
-  "description": "nextjs middleware template"
-},
-  "javascript fetch": {
-  "prefix": "fetch",
-  "body": [
-    "const response = await fetch(\"$0\");",
-    "const data = await response.json();",
-    "return data;"
-  ],
-  "description": "javascript fetch",
-  "scope": "typescript,typescriptreact,javascript,javascriptreact"
-},
-"next.js generateMetadata": {
-  "prefix": "genmeta",
-  "body": [
-    "export async function generateMetadata({ params }: { params: { id: string } }) {",
-    "  return {",
-    "    title: \"\",",
-    "  };",
-    "}"
-  ],
-  "description": "next.js generateMetadata",
-  "scope": "typescript,typescriptreact,javascript,javascriptreact"
-},
-"Radix Theme Snippet": {
-    "prefix": "radix css config",
-    "body": [
-        "@import \"@radix-ui/themes/styles.css\";",
-        "@tailwind base;",
-        "@tailwind components;",
-        "@tailwind utilities;",
-        "@import \"react-toastify/dist/ReactToastify.css\";",
-        "",
-        ".radix-themes {",
-        "    --default-font-family: var(--font-inter);",
-        "}"
-    ],
-    "description": "Radix UI Theme CSS snippet template",
-    "scope": "css, html"
-},
-"ToastContainer": {
-  "prefix": "toastcontainer",
-  "body": [
-    "<ToastContainer",
-    "  toastClassName={",
-    "    \"w-full h-full px-5 py-3.5 leading-none text-white fill-white text-xl font-medium rounded-full\"",
-    "  }",
-    "  toastStyle={{",
-    "    minHeight: \"fit-content\",",
-    "    maxWidth: \"fit-content\",",
-    "    backgroundColor: \"#3c424d\",",
-    "  }}",
-    "  icon={<FaCheckCircle />}",
-    "/>"
-  ],
-  "description": "ToastContainer"
-},
-"next.js metadata object": {
-  "prefix": "metadata",
-  "body": [
-    "export const metadata: Metadata$1 = {",
-    "  title: \"$0\",",
-    "}"
-  ],
-  "description": "next.js metadata object",
-  "scope": "typescript,typescriptreact,javascript,javascriptreact"
-},
-  "tsx component props": {
-  "prefix": "cmprops",
-  "body": [
-    "React.ComponentProps<\"${1:element}\"> & "
-  ],
-  "description": "tsx component props",
-  "scope": "typescript,typescriptreact"
-},
-"number with format": {
-  "prefix": "numft",
-  "body": [
-    "new Intl.NumberFormat().format(${0:amount})"
-  ],
-  "description": "number with format",
-  "scope": "typescript,typescriptreact,javascript,javascriptreact"
-},
-  "big normal comment": {
-    "prefix": "bcm",
-    "body": [
-      "// -------------------",
-      "//  $0",
-      "// -------------------"
-    ],
-    "description": "big normal comment",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
   "const variable": {
-    "prefix": "cvr",
+    "prefix": "cns",
     "body": [
       "const ${1:variableName} = ${2:value};"
     ],
     "description": "const variable",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "click event js": {
-    "prefix": "event",
+  "Let Variable": {
+    "prefix": "lt",
     "body": [
-      "${1:variableName}.addEventListener('$2', function () {",
-      "\t$0",
-      "})"
+      "let ${1:varName} = ${0:value}"
     ],
-    "description": "click event js",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "let variable",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "medium size comment": {
-    "prefix": "mcm",
-    "body": "// --- ${0:comment} --- //",
-    "description": "description for medium size comment",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  "Array Syntax": {
+    "prefix": "array",
+    "body": [
+      "const ${1:arrName} = [${0:arrVal}]"
+    ],
+    "description": "array",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Object Syntax": {
+    "prefix": "obj",
+    "body": [
+      "const ${1:objName} = {",
+      "  ${2:key}: ${0:value},",
+      "}"
+    ],
+    "description": "object",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Regular Function": {
+    "prefix": "rfn",
+    "description": "regular function",
+    "body": [
+      "function ${1:funcName} (${2:param}) {",
+      "  ${0:code...}",
+      "}"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Async Regular Function": {
+    "prefix": "arfn",
+    "body": [
+      "async function ${1:funcName}(${2:param}) {",
+      "${0:code...}",
+      "}",
+      ""
+    ],
+    "description": "async Regular Function",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Arrow Function": {
+    "prefix": "afn",
+    "description": "large arrow function",
+    "body": [
+      "const ${1:funcName} = (${2:param}) => {",
+      "  ${0:code...}",
+      "}"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Async Arrow Function": {
+    "prefix": "asafn",
+    "description": "async arrow function",
+    "body": [
+      "const ${1:funcName} = async (${2:param}) => {",
+      " ${0:value}",
+      "}"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Array.map()": {
+    "prefix": "arrayMap",
+    "description": "array map",
+    "body": [
+      "${1:item}s.map((${1:item})=>${2:value})"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Array.filter()": {
+    "prefix": "arrayFilter",
+    "body": [
+      "${1:item}s.filter((${1:item})=>${2:value})"
+    ],
+    "description": "array filter",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Array.find()": {
+    "prefix": "arrayFind",
+    "body": [
+      "${1:arr}.find((${2:element})=>${3:value})"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Array.Reduce()": {
+    "prefix": "arrayReduce",
+    "description": "array reduce",
+    "body": [
+      "${1:arr}.reduce((${2:acc}, ${3:currVal}) => ${2:acc} + ${3:currVal}, ${0:initialVal})"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Optional Chaining": {
+    "prefix": "opc",
+    "description": "optional chaining",
+    "body": [
+      "${1:condition} ? ${2:trueValue} : ${3:falseValue}"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Optional (&&) chaining": {
+    "prefix": "opnc",
+    "description": "optional && chaining",
+    "body": [
+      "${1:condition} && ${0:trueValue}"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Random UID": {
+    "prefix": "rid",
+    "description": "Random UID",
+    "body": [
+      "crypto.randomUUID()"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "useState": {
+    "prefix": "usest",
+    "body": [
+      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState$2(${3:initialValue})"
+    ],
+    "description": "useState",
+    "scope": "javascript,javascriptreact"
+  },
+  "useStateTsx": {
+    "prefix": "usest",
+    "body": [
+      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState$2(${0:initialValue})"
+    ],
+    "description": "useState",
+    "scope": "typescript,typescriptreact"
+  },
+  "useEffect": {
+    "prefix": "useeff",
+    "body": [
+      "useEffect$1(() => {",
+      "  ${0:code}",
+      "  ",
+      "}, [])"
+    ],
+    "description": "useEffect",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "useReducer": {
+    "prefix": "usered",
+    "body": [
+      "const [state, dispatch] = useReducer$1(${2:reducerFunc}, ${0:initialValue})"
+    ],
+    "description": "useReducer",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "Custom useContext Hook": {
+    "prefix": "cscon",
+    "description": "custom useContext hook ",
+    "body": [
+      "const { ${0:values} } = use${1:ContextName}()"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "Context File Codes": {
     "prefix": "context",
@@ -213,95 +216,44 @@
       "",
       "export default ${1:contextName}Provider"
     ],
-     "scope": "javascript,javascriptreact"
+    "scope": "javascript,javascriptreact"
   },
-"context file code ts": {
-  "prefix": "context",
-  "body": [
-    "import { createContext, useContext } from \"react\";",
-    "",
-    "// you can separate",
-    "type ContextTP = {};",
-    "",
-    "// --- create context --- //",
-    "export const ${1:contextName}Context = createContext<ContextTP | null>(null);",
-    "",
-    "// --- context provider --- //",
-    "const ${1:contextName}Provider = (props: { children: React.ReactNode }) => {",
-    "  // ${0:code...}",
-    "  ",
-    "  return (",
-    "    <${1:contextName}Context.Provider value = {{}}>",
-    "      {props.children}",
-    "    </${1:contextName}Context.Provider >",
-    "  );",
-    "};",
-    "",
-    "export default ${1:contextName}Provider;",
-    "",
-    "// --- Custom Hook --- //",
-    "export const use${1:contextName}Context = () => {",
-    "  const context = useContext(${1:contextName}Context);",
-    "  if (!context) {",
-    "    throw new Error('use${1:contextName}Context must be used within ${1:contextName}Provider!');",
-    "  }",
-    "  return context;",
-    "};",
-    ""
-  ],
-  "description": "context file code",
-  "scope": "typescript,typescriptreact"
-},
-  "useState": {
-    "prefix": "usest",
+  "context file code ts": {
+    "prefix": "context",
     "body": [
-      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState$2(${3:initialValue})"
-    ],
-    "description": "useState",
-     "scope": "javascript,javascriptreact"
-  },
-  "useSearchParams": {
-    "prefix": "usesp",
-    "body": [
-      "const [${1:searchParams}, set${1/(.*)/${1:/capitalize}/}] = useSearchParams$3(${2:initialValue})"
-    ],
-    "description": "useSearchParams",
-     "scope": "javascript,javascriptreact"
-  },
-  "useStateTsx": {
-    "prefix": "usest",
-    "body": [
-      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useState$2(${0:initialValue})"
-    ],
-    "description": "useState",
-     "scope": "typescript,typescriptreact"
-  },
-  "useContext": {
-    "prefix": "usecon",
-    "body": [
-      "const { ${0:values} } = useContext$1(${2:context})"
-    ],
-    "description": "useContext",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "useEffect": {
-    "prefix": "useeff",
-    "body": [
-      "useEffect$1(() => {",
-      "  ${2:code}",
+      "import { createContext, useContext } from \"react\";",
+      "",
+      "// you can separate",
+      "type ContextTP = {};",
+      "",
+      "// --- create context --- //",
+      "export const ${1:contextName}Context = createContext<ContextTP | null>(null);",
+      "",
+      "// --- context provider --- //",
+      "const ${1:contextName}Provider = (props: { children: React.ReactNode }) => {",
+      "  // ${0:code...}",
       "  ",
-      "}, [${0:dependencies}])"
+      "  return (",
+      "    <${1:contextName}Context.Provider value = {{}}>",
+      "      {props.children}",
+      "    </${1:contextName}Context.Provider >",
+      "  );",
+      "};",
+      "",
+      "export default ${1:contextName}Provider;",
+      "",
+      "// --- Custom Hook --- //",
+      "export const use${1:contextName}Context = () => {",
+      "  const context = useContext(${1:contextName}Context);",
+      "  if (!context) {",
+      "    throw new Error('use${1:contextName}Context must be used within ${1:contextName}Provider!');",
+      "  }",
+      "  return context;",
+      "};",
+      ""
     ],
-    "description": "useEffect",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "useReducer": {
-    "prefix": "usered",
-    "body": [
-      "const [state, dispatch] = useReducer$1(${2:reducerFunc}, ${0:initialValue})"
-    ],
-    "description": "useReducer",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "context file code",
+    "scope": "typescript,typescriptreact"
   },
   "useRefJSX": {
     "prefix": "useref",
@@ -309,7 +261,7 @@
       "const ${2:element} = useRef$1(${0:initialValue})"
     ],
     "description": "useRef",
-     "scope": "javascript,javascriptreact"
+    "scope": "javascript,javascriptreact"
   },
   "useRefTSX": {
     "prefix": "useref",
@@ -317,7 +269,7 @@
       "const ${2:element} = useRef$1<${4:elementName} | null>(${0:null})"
     ],
     "description": "useRef",
-     "scope": "typescript,typescriptreact"
+    "scope": "typescript,typescriptreact"
   },
   "Try & Catch Block": {
     "prefix": "trycatch",
@@ -329,7 +281,7 @@
       "}"
     ],
     "description": "try catch block",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "SwitchCaseBlock": {
     "prefix": "swc",
@@ -343,95 +295,171 @@
       "    return ${0:defaultVal}",
       "}"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Styled Component": {
-    "prefix": "scc",
+  "case (switch Case's case command)": {
+    "prefix": "case",
     "body": [
-      "export const ${1:Name} = styled.${2:element}`",
-      "  $0",
-      "`"
+      "case ${1:caseType}:",
+      "  return ${2:caseReturns}"
     ],
-    "description": "styled component",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "case (switch Case's case command)",
+    "scope": "javascript, javascriptreact"
   },
-  "Short Arrow Function": {
-    "prefix": "safn",
-    "description": "short arrow function",
+  "number with format": {
+    "prefix": "formateNum",
     "body": [
-      "const ${1:funcName} = (${2:param}) => ${0:value}"
+      "new Intl.NumberFormat().format(${0:amount})"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "number with format",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Regular Function": {
-    "prefix": "rfn",
-    "description": "regular function",
+  "javascript fetch": {
+    "prefix": "fetch",
     "body": [
-      "function ${1:funcName} (${2:param}) {",
-      "  ${0:code...}",
-      "}"
+      "const response = await fetch(\"$0\");",
+      "const data = await response.json();",
+      "return data;"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "javascript fetch",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "React Styles Import": {
-    "prefix": "imps",
+  "React Regular Functional Component": {
+    "prefix": "rfc",
     "body": [
-      "import styles from '$0'"
+      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "  return (",
+      "    <div>${1:first}</div>$0",
+      "  )",
+      "}",
+      ""
     ],
-    "description": "react styles import",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Creates a React Functional Component with ES7 module system",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Object Syntax": {
-    "prefix": "obj",
+  "React Regular Async Functional Component": {
+    "prefix": "arfc",
     "body": [
-      "const ${1:objName} = {",
-      "  ${2:key}: ${0:value},",
-      "}"
+      "export default async function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "  return (",
+      "    <div>${1:first}</div>$0",
+      "  )",
+      "}",
+      ""
     ],
-    "description": "object",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Creates a React Functional Component with ES7 module system",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Optional Chaining": {
-    "prefix": "opc",
-    "description": "optional chaining",
+  "React Functional Component With Ref": {
+    "prefix": "rfcwr",
     "body": [
-      "${1:condition} ? ${2:trueValue} : ${3:falseValue}"
+      "import { forwardRef } from \"react\";",
+      "",
+      "function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "  return (",
+      "    <div>${1:first}</div>$0",
+      "  );",
+      "}",
+      "",
+      "export default forwardRef(${1:second});"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "React Functional Component With Ref"
   },
-  "Optional (&&) chaining": {
-    "prefix": "opnc",
-    "description": "optional && chaining",
+  "React Funcional Arrow Component": {
+    "prefix": "rfac",
+    "description": "React Funcional Arrow Component",
     "body": [
-      "${1:condition} && ${0:trueValue}"
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = () => {",
+      "  return (",
+      "    <>",
+      "      <div>${1:first}$0</div>",
+      "    </>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:second};",
+      ""
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "scope": "javascript,javascriptreact,typescript,typescriptreact"
   },
-  "Let Variable": {
-    "prefix": "lvr",
+  "React Async Funcional Arrow Component": {
+    "prefix": "arfac",
+    "description": "React Async Funcional Arrow Component",
     "body": [
-      "let ${1:varName} = ${0:value}"
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = async () => {",
+      "  return (",
+      "    <>",
+      "      <div>${1:first}$0</div>",
+      "    </>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:second};",
+      ""
     ],
-    "description": "let variable",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "scope": "javascript,javascriptreact,typescript,typescriptreact"
   },
-  "Large Arrow Function": {
-    "prefix": "lafn",
-    "description": "large arrow function",
+  "bullet comment": {
+    "prefix": "blcm",
     "body": [
-      "const ${1:funcName} = (${2:param}) => {",
-      "  ${0:code...}",
-      "}"
+      "/**",
+      " * $0",
+      " */"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "bullet comment",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Custom useContext Hook": {
-    "prefix": "cscon",
-    "description": "custom useContext hook ",
+  "big normal comment": {
+    "prefix": "bcm",
     "body": [
-      "const { ${0:values} } = use${1:ContextName}()"
+      "// -------------------",
+      "//  $0",
+      "// -------------------"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "big normal comment",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "medium size comment": {
+    "prefix": "mcm",
+    "body": "// --- ${0:comment} --- //",
+    "description": "description for medium size comment",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  "useContext": {
+    "prefix": "usecon",
+    "body": [
+      "const { ${0:values} } = useContext$1(${2:context})"
+    ],
+    "description": "useContext",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
+  // TODO: Edit it
+  "render data conditionally from api": {
+    "prefix": "renderData",
+    "body": [
+      "const render${1:ItemName} = () => {",
+      "    switch (true) {",
+      "      case isLoading:",
+      "        return <Loading>Loading ${1:itemName}</Loading>;",
+      "      case isError:",
+      "        console.error(errorMsg);",
+      "        return (",
+      "          <ErrorMessage>An error occurred while fetching ${1:itemName}</ErrorMessage>",
+      "        );",
+      "      case ${1:ItemName}?.length === 0:",
+      "        return <ErrorMessage>No ${1:itemName} found</ErrorMessage>;",
+      "      default:",
+      "        return (",
+      "          <ul className=\"${1:itemName}-list\">",
+      "            {${1:ItemName}?.map((job) => (",
+      "              <${2:componentName} key={job.id} job={job} />",
+      "            ))}",
+      "          </ul>",
+      "        );",
+      "    }",
+      "  };"
+    ],
+    "description": "render data conditionally from api"
   },
   "Custom Hook Syntax": {
     "prefix": "chk",
@@ -439,543 +467,400 @@
       "const ${0:value} = use${1:HookName}(${2:param})"
     ],
     "description": "custom hook",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Async Regular Function": {
-    "prefix": "asfn",
+  "localStorage getitem": {
+    "prefix": "locget",
     "body": [
-      "async function ${1:funcName}(${2:param}) {",
-      "  await ${0:value}",
+      "JSON.parse(localStorage.getItem('${1:key}'))"
+    ],
+    "description": "localStorage getitem",
+    "scope": "javascript, javascriptreact, typescript, typescriptreact"
+  },
+  "localStorage setitem": {
+    "prefix": "locset",
+    "body": [
+      "localStorage.setItem('${1:key}', JSON.stringify(${2:value}))"
+    ],
+    "description": "localStorage setitem",
+    "scope": "javascript, javascriptreact, typescript, typescriptreact"
+  },
+  "prisma mongodb id": {
+    "prefix": "prisId",
+    "body": [
+      "id   String @id @default(auto()) @map(\"_id\") @db.ObjectId"
+    ],
+    "description": "prisma mongodb id",
+    "scope": "prisma"
+  },
+  "Next.js Layout Component": {
+    "prefix": "nextlayout",
+    "body": [
+      "import type { Metadata } from \"next\";",
+      "",
+      "export const metadata: Metadata = {",
+      "  title: \"${2:title}\",",
+      "};",
+      "",
+      "export default function ${1:Name}Layout({",
+      "  children,",
+      "}: {",
+      "  children: React.ReactNode;",
+      "}) {",
+      "  return <div>$0{children}</div>;",
       "}",
       ""
     ],
-    "description": "async Regular Function",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Next.js Layout Component"
   },
-  "Async Arrow Function": {
-    "prefix": "asafn",
-    "description": "async arrow function",
+  "nextjs middleware template": {
+    "prefix": "nextmiddle",
     "body": [
-      "const ${1:funcName} = async (${2:param}) => {",
-      " ${0:value}",
+      "import { NextRequest, NextResponse } from \"next/server\";",
+      "",
+      "export const middleware = (req: NextRequest) => {",
+      "  return NextResponse.next();",
+      "};",
+      "",
+      "export const config = {",
+      "  matcher: [\"/\"],",
+      "};",
+      ""
+    ],
+    "description": "nextjs middleware template"
+  },
+  "next.js generateMetadata": {
+    "prefix": "genmeta",
+    "body": [
+      "export async function generateMetadata({ params }: { params: { id: string } }) {",
+      "  return {",
+      "    title: \"\",",
+      "  };",
       "}"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "next.js generateMetadata",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "Array.find()": {
-    "prefix": "arrfin",
+  "Radix Theme Snippet": {
+    "prefix": "radix css config",
     "body": [
-      "${1:arr}.find((${2:element})=>${3:value})"
-    ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "Array.Reduce()": {
-    "prefix": "arred",
-    "description": "array reduce",
-    "body": [
-      "${1:arr}.reduce((${2:acc}, ${3:currVal}) => ${2:acc} + ${3:currVal}, ${0:initialVal})"
-    ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "Array Syntax": {
-    "prefix": "array",
-    "body": [
-      "const ${1:arrName} = [${0:arrVal}]"
-    ],
-    "description": "array",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "Array.map()": {
-    "prefix": "armap",
-    "description": "array map",
-    "body": [
-      "${1:arr}.map((${2:item})=>${3:value})"
-    ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "Array.filter()": {
-    "prefix": "arfil",
-    "body": [
-      "${1:arr}.filter((${2:item})=>${3:value})"
-    ],
-    "description": "array filter",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
-  },
-  "Tailwind Confige ts": {
-    "prefix": "twc",
-    "description": "Tailwind Config ts",
-    "body": [
-      "/** @type {import('tailwindcss').Config} */",
-      "export default {",
-      "  content: [\"./index.html\", \"./src/**/*.{js,ts,jsx,tsx}\"],",
-      "  theme: {",
-      "    extend: {",
-      "      fontFamily: {",
-      "        inter: [\"inter\", \"poppins\", \"sans-serif\"],",
-      "      },",
-      "    },",
-      "  },",
-      "  plugins: [],",
-      "};",
+      "@import \"@radix-ui/themes/styles.css\";",
+      "@tailwind base;",
+      "@tailwind components;",
+      "@tailwind utilities;",
+      "@import \"react-toastify/dist/ReactToastify.css\";",
       "",
-      ""
-    ], 
-    "scope": "typescript, typescriptreact"
-  },
-  "Tailwind Confige": {
-    "prefix": "twc",
-    "description": "Tailwind Config",
-    "body": [
-      "/** @type {import('tailwindcss').Config} */",
-      "export default {",
-      "  content: [\"./index.html\", \"./src/**/*.{js,ts,jsx,tsx}\"],",
-      "  theme: {",
-      "    extend: {",
-      "      fontFamily: {",
-      "        inter: [\"inter\", \"poppins\", \"sans-serif\"],",
-      "      },",
-      "    },",
-      "  },",
-      "  plugins: [],",
-      "};",
-      "",
-      ""
-    ], 
-    "scope": "javascript, javascriptreact"
-  },
-  "searchFilter": {
-    "prefix": "searchFilter",
-    "body": [
-      ".filter((${1:itemName}) => search.toLowerCase() === \"\" ? ${1:itemName} : ${1:itemName}.name.toLowerCase().includes(search))"
+      ".radix-themes {",
+      "    --default-font-family: var(--font-inter);",
+      "}"
     ],
-    "description": "search Filter",
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "Radix UI Theme CSS snippet template",
+    "scope": "css, html"
   },
-  "Random UID": {
-    "prefix": "rid",
-    "description": "Random UID",
+  "next.js metadata object": {
+    "prefix": "nextmeta",
     "body": [
-      "crypto.randomUUID()"
+      "export const metadata: Metadata$1 = {",
+      "  title: \"$0\",",
+      "}"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "next.js metadata object",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "useApiFetch": {
-    "prefix": "useapi",
-    "description": "useApiFetch (Custom Hook)",
+  "tsx component props": {
+    "prefix": "cmprops",
     "body": [
-      "const {$3} = useApiFetch$1(${2:url})"
+      "React.ComponentProps<\"${1:element}\"> & "
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "tsx component props",
+    "scope": "typescript,typescriptreact"
   },
-  "useLocalStorage": {
-    "prefix": "useloc",
-    "description": "useLocalStorage custom hook",
+  "click event js": {
+    "prefix": "event",
     "body": [
-      "const [${1:state}, set${1/(.*)/${1:/capitalize}/}] = useLocalStorage(\"${3:key}\", ${4:initialValue});"
+      "${1:variableName}.addEventListener('$2', function () {",
+      "\t$0",
+      "})"
     ],
-     "scope": "typescript,typescriptreact,javascript,javascriptreact"
+    "description": "click event js",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "TypeScriptReactFunctionalArrowComponent": {
-    "prefix": "rfac",
+  "useSearchParams": {
+    "prefix": "usesp",
     "body": [
-      "const ${1:${TM_FILENAME_BASE}} = () => {",
-      "  return (",
-      "    <>",
-      "      <div>${1:${TM_FILENAME_BASE}}$0</div>",
-      "    </>",
-      "  );",
-      "};",
-      "",
-      "export default ${1:${TM_FILENAME_BASE}};",
-      ""
+      "const [${1:searchParams}, set${1/(.*)/${1:/capitalize}/}] = useSearchParams$3(${2:initialValue})"
     ],
-    "description": "TypeScriptReactFunctionalArrowComponent",
-     "scope": "typescript,typescriptreact"
+    "description": "useSearchParams",
+    "scope": "javascript,javascriptreact"
   },
-	"ReactFuncionalArrowComponent": {
-    "prefix": "rfac",
-    "description": "ReactFuncionalArrowComponent",
+  "React Styles Import": {
+    "prefix": "imps",
     "body": [
-      "const ${1:${TM_FILENAME_BASE}} = () => {",
-      "  return (",
-      "    <>",
-      "      <div>${1:${TM_FILENAME_BASE}}$0</div>",
-      "    </>",
-      "  );",
-      "};",
-      "",
-      "export default ${1:${TM_FILENAME_BASE}};",
-      ""
+      "import styles from '$0'"
     ],
-	"scope": "javascript,javascriptreact"
+    "description": "react styles import",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-   "nextjsUseClientCommand": {
+  "nextjsUseClientCommand": {
     "prefix": "usecli",
     "description": "nextjsUseClientCommand",
     "body": [
-      "'use client'",
+      "\"use client\""
     ],
-	"scope": "typescript,typescriptreact"
+    "scope": "typescript,typescriptreact"
   },
-   "nextjsUseServerCommand": {
+  "nextjsUseServerCommand": {
     "prefix": "useserv",
     "description": "nextjsUseServerCommand",
     "body": [
-      "'use server'",
+      "\"use server\""
     ],
-	"scope": "typescript,typescriptreact"
+    "scope": "typescript,typescriptreact"
   },
-  "reducer function": {
-  "prefix": "reducer",
-  "body": [
-    "const ${1:reducer} = (state = ${2:initState}, action) => {",
-    "  switch (action.type) {",
-    "    case ${3:case}:",
-    "      return $0",
-    "",
-    "    default:",
-    "      return state;",
-    "  }",
-    "};"
-  ],
-  "description": "reducer function",
-  "scope": "typescript,typescriptreact,javascript,javascriptreact",
-},
-"case (swithc {case})": {
-  "prefix": "case",
-  "body": [
-    "case ${1:caseType}:",
-    "  return ${2:caseReturns}"
-  ],
-  "description": "case (swithc {case})",
-   "scope": "javascript, javascriptreact"
-},
-    "useReduxStates Custom Hook": {
-        "prefix": "useredx",
-        "body": [
-            "const [${2:stateName}, dispatch] = useReduxStates(${1:selector})"
-        ],
-        "description": "useReduxStates Custom Hook",
-        "scope": "javascript, javascriptreact"
-    },
-    "redux store jsx": {
-  "prefix": "rdxstore",
-  "body": [
-    "import { configureStore } from \"@reduxjs/toolkit\";",
-    "",
-    "const ${1:reduxStore} = configureStore({",
-    "  reducer: {",
-    "    ${0:// reducers..}",
-    "  },",
-    "});",
-    "",
-    "export default ${1:reduxStore};",
-    ""
-  ],
-  "description": "redux store jsx",
-  "scope": "javascript, javascriptreact"
-},
-"redux store nextjs": {
-  "prefix": "rdxstore",
-  "body": [
-    "import { configureStore } from \"@reduxjs/toolkit\";",
-    "",
-    "const reduxStore = configureStore({",
-    "  reducer: {",
-    "    // reducers..",
-    "  },",
-    "});",
-    "",
-    "export default reduxStore;",
-    "",
-    "export type RootState = ReturnType<typeof reduxStore.getState>;",
-    "export type AppDispatch = typeof reduxStore.dispatch;",
-    ""
-  ],
-  "description": "redux store nextjs",
-  "scope": "typescript, typescriptreact"
-},
-"rtk query api slice": {
-  "prefix": "rtkapislice",
-  "body": [
-    "import { createApi, fetchBaseQuery } from \"@reduxjs/toolkit/query/react\";",
-    "",
-    "const notebookApi = createApi({",
-    "  reducerPath: \"\",",
-    "  tagTypes: [\"\"],",
-    "  baseQuery: fetchBaseQuery({",
-    "    baseUrl: \"\",",
-    "  }),",
-    "  endpoints: (builder) => ({",
-    "    getNotebooks: builder.query({",
-    "      query: () => ({",
-    "        url: \"/notebooks\",",
-    "        method: \"GET\",",
-    "      }),",
-    "      providesTags: [\"Notebooks\"],",
-    "    }),",
-    "  }),",
-    "});",
-    "",
-    "export default notebookApi;",
-    ""
-  ],
-  "description": "rtk query api slice",
-  "scope": "typescript, typescriptreact"
-},
-    "redux useDispatch": {
-  "prefix": "usedisp",
-  "body": [
-    "const dispatch = useDispatch$1()$0",
-  ],
-  "description": "redux useDispatch",
-  "scope": "javascript, javascriptreact"
-},
-    "redux useDispatch ts": {
-  "prefix": "usedisp",
-  "body": [
-    "const dispatch = useDispatch$1()$0",
-  ],
-  "description": "redux useDispatch ts",
-  "scope": "typescript, typescriptreact"
-},
-    "react router navigate": {
-  "prefix": "usenav",
-  "body": [
-    "const navigate = useNavigate$1()$0",
-  ],
-  "description": "react router navigate",
-  "scope": "javascript, javascriptreact"
-},
-    "react router navigate ts": {
-  "prefix": "usenav",
-  "body": [
-    "const navigate = useNavigate$1()$0",
-  ],
-  "description": "react router navigate ts",
-  "scope": "typescript, typescriptreact"
-},
-
-"format number with commas": {
-  "prefix": "formatNum",
-  "body": [
-    "export function formatWithCommas(number) {",
-    "  return number.toString().replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\");",
-    "}"
-  ],
-  "description": "format number with commas",
-   "scope": "javascript, javascriptreact"
-},
-"redux toolkit slice": {
-  "prefix": "rtkslice",
-  "body": [
-    "import { createSlice } from \"@reduxjs/toolkit\";",
-    "",
-    "const initialState = {",
-    "  // initialStates",
-    "};",
-    "",
-    "const ${1:featureName}Slice = createSlice({",
-    "  name: \"${2:sliceName}\",",
-    "  initialState,",
-    "  reducers: {",
-    "    ${0:// reducers}",
-    "  },",
-    "});",
-    "",
-    "// export",
-    "const ${1:featureName}Reducer = ${1:featureName}Slice.reducer;",
-    "export const ${1:featureName}Actions = ${1:featureName}Slice.actions;",
-    "export default ${1:featureName}Reducer",
-    ""
-  ],
-  "description": "redux toolkit slice",
-   "scope": "javascript, javascriptreact"
-},
-"redux toolkit slice ts": {
-  "prefix": "rtkslice",
-  "body": [
-    "import { createSlice } from \"@reduxjs/toolkit\";",
-    "",
-    "const initialState = {",
-    "  // initialStates",
-    "};",
-    "",
-    "const ${1:featureName}Slice = createSlice({",
-    "  name: \"${2:sliceName}\",",
-    "  initialState,",
-    "  reducers: {",
-    "    ${0:// reducers}",
-    "  },",
-    "});",
-    "",
-    "// export",
-    "const ${1:featureName}Reducer = ${1:featureName}Slice.reducer;",
-    "export const ${1:featureName}Actions = ${1:featureName}Slice.actions;",
-    "export default ${1:featureName}Reducer",
-    ""
-  ],
-  "description": "redux toolkit slice ts",
-   "scope": "typescript, typescriptreact"
-},
-"redux toolkit query slice": {
-  "prefix": "rtkqslice",
-  "body": [
-    "import { createApi, fetchBaseQuery } from \"@reduxjs/toolkit/query/react\";",
-    "",
-    "const ${1:sliceName}Slice = createApi({",
-    "  reducerPath: \"${3:reducerPathName}\",",
-    "  baseQuery: fetchBaseQuery({",
-    "    baseUrl: \"${2:url}\",",
-    "  }),",
-    "});",
-    "",
-    "export default ${1:sliceName}Slice;",
-    ""
-  ],
-  "description": "redux toolkit query slice",
-  "scope": "javascript, javascriptreact"
-},
-    "redux useSelector": {
-  "prefix": "usesel",
-  "body": [
-    "const ${3:selector} = useSelector$1(${2:state});",
-  ],
-  "description": "redux useSelector",
-  "scope": "javascript, javascriptreact"
-},
-    "redux useSelector ts": {
-  "prefix": "usesel",
-  "body": [
-    "const ${3:selector} = useSelector$1(${2:state});",
-  ],
-  "description": "redux useSelector ts",
-  "scope": "typescript, typescriptreact"
-},
-    "localStorage getitem": {
-  "prefix": "locget",
-  "body": [
-    "JSON.parse(localStorage.getItem('${1:key}'))",
-  ],
-  "description": "localStorage getitem",
-  "scope": "javascript, javascriptreact"
-},
-    "localStorage setitem": {
-  "prefix": "locset",
-  "body": [
-    "localStorage.setItem('${1:key}', JSON.stringify(${2:value}))",
-  ],
-  "description": "localStorage setitem",
-  "scope": "javascript, javascriptreact"
-},
-    "localStorage getitem ts": {
-  "prefix": "locget",
-  "body": [
-    "JSON.parse(localStorage.getItem('${1:key}'))",
-  ],
-  "description": "localStorage getitem ts",
-  "scope": "typescript, typescriptreact"
-},
-    "localStorage setitem ts": {
-  "prefix": "locset",
-  "body": [
-    "localStorage.setItem('${1:key}', JSON.stringify(${2:value}))",
-  ],
-  "description": "localStorage setitem ts",
-  "scope": "typescript, typescriptreact"
-},
-    "redux middleware": {
-  "prefix": "midw",
-  "body": [
-    "const ${1:middleware} = (store) => (next) => (action) => {",
-    "  ${0:// code}",
-    "}",
-  ],
-  "description": "redux middleware",
-  "scope": "javascript, javascriptreact"
-},
-"redux query hook": {
-  "prefix": "usertkhk",
-  "body": [
-    "const { $4 } = ${1:sliceName}.${2:hookName}($3);"
-  ],
-  "description": "redux query hook",
-   "scope": "javascript, javascriptreact"
-},
-"render data conditionally from api": {
-  "prefix": "renderData",
-  "body": [
-    "const render${1:ItemName} = () => {",
-    "    switch (true) {",
-    "      case isLoading:",
-    "        return <Loading>Loading ${1:itemName}</Loading>;",
-    "      case isError:",
-    "        console.error(errorMsg);",
-    "        return (",
-    "          <ErrorMessage>An error occurred while fetching ${1:itemName}</ErrorMessage>",
-    "        );",
-    "      case ${1:ItemName}?.length === 0:",
-    "        return <ErrorMessage>No ${1:itemName} found</ErrorMessage>;",
-    "      default:",
-    "        return (",
-    "          <ul className=\"${1:itemName}-list\">",
-    "            {${1:ItemName}?.map((job) => (",
-    "              <${2:componentName} key={job.id} job={job} />",
-    "            ))}",
-    "          </ul>",
-    "        );",
-    "    }",
-    "  };"
-  ],
-  "description": "render data conditionally from api"
-},
-  "reactFunctionalComponent": {
-      "prefix": "rfc",
-      "body": [
-          "export default function ${1:${TM_FILENAME_BASE}}() {",
-          "  return (",
-          "    <div>${1:first}</div>",
-          "  )",
-          "}",
-          ""
-      ],
-      "description": "Creates a React Functional Component with ES7 module system",
-      "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  "reducer function for Redux/useReducer": {
+    "prefix": "reducerFunc",
+    "body": [
+      "const ${1:reducer} = (${2:state}, action) => {",
+      "  switch (action.type) {",
+      "    case ${3:case}:",
+      "      return $0",
+      "",
+      "    default:",
+      "      return state;",
+      "  }",
+      "};"
+    ],
+    "description": "reducer function",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
-  "nextFunctionalComponent": {
-      "prefix": "nfc",
-      "body": [
-          "export default function ${1:${TM_FILENAME_BASE}}() {",
-          "  return (",
-          "    <div>${1:first}</div>",
-          "  )",
-          "}",
-          ""
-      ],
-      "description": "Creates a Nextjs Functional Component with ES7 module system",
-      "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  "useReduxStates Custom Hook": {
+    "prefix": "useredx",
+    "body": [
+      "const [${2:stateName}, dispatch] = useReduxStates(${1:selector})"
+    ],
+    "description": "useReduxStates Custom Hook",
+    "scope": "javascript, javascriptreact"
   },
-  "nextFunctionalComponentClient": {
-      "prefix": "nfcc",
-      "body": [
-          "'use client'",
-          "",
-          "export default function ${1:${TM_FILENAME_BASE}}() {",
-          "  return (",
-          "    <div>${1:first}</div>",
-          "  )",
-          "}",
-          ""
-      ],
-      "description": "Creates a Nextjs Functional Component with ES7 module system",
-      "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  "redux store jsx": {
+    "prefix": "rdxstore",
+    "body": [
+      "import { configureStore } from \"@reduxjs/toolkit\";",
+      "",
+      "const ${1:reduxStore} = configureStore({",
+      "  reducer: {",
+      "    ${0:// reducers..}",
+      "  },",
+      "});",
+      "",
+      "export default ${1:reduxStore};",
+      ""
+    ],
+    "description": "redux store jsx",
+    "scope": "javascript, javascriptreact"
   },
-
+  "redux store nextjs": {
+    "prefix": "rdxstore",
+    "body": [
+      "import { configureStore } from \"@reduxjs/toolkit\";",
+      "",
+      "const reduxStore = configureStore({",
+      "  reducer: {",
+      "    // reducers..",
+      "  },",
+      "});",
+      "",
+      "export default reduxStore;",
+      "",
+      "export type RootState = ReturnType<typeof reduxStore.getState>;",
+      "export type AppDispatch = typeof reduxStore.dispatch;",
+      ""
+    ],
+    "description": "redux store nextjs",
+    "scope": "typescript, typescriptreact"
+  },
+  "rtk query api slice": {
+    "prefix": "rtkapislice",
+    "body": [
+      "import { createApi, fetchBaseQuery } from \"@reduxjs/toolkit/query/react\";",
+      "",
+      "const notebookApi = createApi({",
+      "  reducerPath: \"\",",
+      "  tagTypes: [\"\"],",
+      "  baseQuery: fetchBaseQuery({",
+      "    baseUrl: \"\",",
+      "  }),",
+      "  endpoints: (builder) => ({",
+      "    getNotebooks: builder.query({",
+      "      query: () => ({",
+      "        url: \"/notebooks\",",
+      "        method: \"GET\",",
+      "      }),",
+      "      providesTags: [\"Notebooks\"],",
+      "    }),",
+      "  }),",
+      "});",
+      "",
+      "export default notebookApi;",
+      ""
+    ],
+    "description": "rtk query api slice",
+    "scope": "typescript, typescriptreact"
+  },
+  "redux useDispatch": {
+    "prefix": "usedisp",
+    "body": [
+      "const dispatch = useDispatch$1()$0"
+    ],
+    "description": "redux useDispatch",
+    "scope": "javascript, javascriptreact"
+  },
+  "redux useDispatch ts": {
+    "prefix": "usedisp",
+    "body": [
+      "const dispatch = useDispatch$1()$0"
+    ],
+    "description": "redux useDispatch ts",
+    "scope": "typescript, typescriptreact"
+  },
+  "react router navigate": {
+    "prefix": "usenav",
+    "body": [
+      "const navigate = useNavigate$1()$0"
+    ],
+    "description": "react router navigate",
+    "scope": "javascript, javascriptreact"
+  },
+  "react router navigate ts": {
+    "prefix": "usenav",
+    "body": [
+      "const navigate = useNavigate$1()$0"
+    ],
+    "description": "react router navigate ts",
+    "scope": "typescript, typescriptreact"
+  },
+  "redux toolkit slice": {
+    "prefix": "rtkslice",
+    "body": [
+      "import { createSlice } from \"@reduxjs/toolkit\";",
+      "",
+      "const initialState = {",
+      "  // initialStates",
+      "};",
+      "",
+      "const ${1:featureName}Slice = createSlice({",
+      "  name: \"${2:sliceName}\",",
+      "  initialState,",
+      "  reducers: {",
+      "    ${0:// reducers}",
+      "  },",
+      "});",
+      "",
+      "// export",
+      "const ${1:featureName}Reducer = ${1:featureName}Slice.reducer;",
+      "export const ${1:featureName}Actions = ${1:featureName}Slice.actions;",
+      "export default ${1:featureName}Reducer",
+      ""
+    ],
+    "description": "redux toolkit slice",
+    "scope": "javascript, javascriptreact"
+  },
+  "redux toolkit slice ts": {
+    "prefix": "rtkslice",
+    "body": [
+      "import { createSlice } from \"@reduxjs/toolkit\";",
+      "",
+      "const initialState = {",
+      "  // initialStates",
+      "};",
+      "",
+      "const ${1:featureName}Slice = createSlice({",
+      "  name: \"${2:sliceName}\",",
+      "  initialState,",
+      "  reducers: {",
+      "    ${0:// reducers}",
+      "  },",
+      "});",
+      "",
+      "// export",
+      "const ${1:featureName}Reducer = ${1:featureName}Slice.reducer;",
+      "export const ${1:featureName}Actions = ${1:featureName}Slice.actions;",
+      "export default ${1:featureName}Reducer",
+      ""
+    ],
+    "description": "redux toolkit slice ts",
+    "scope": "typescript, typescriptreact"
+  },
+  "redux toolkit query slice": {
+    "prefix": "rtkqslice",
+    "body": [
+      "import { createApi, fetchBaseQuery } from \"@reduxjs/toolkit/query/react\";",
+      "",
+      "const ${1:sliceName}Slice = createApi({",
+      "  reducerPath: \"${3:reducerPathName}\",",
+      "  baseQuery: fetchBaseQuery({",
+      "    baseUrl: \"${2:url}\",",
+      "  }),",
+      "});",
+      "",
+      "export default ${1:sliceName}Slice;",
+      ""
+    ],
+    "description": "redux toolkit query slice",
+    "scope": "javascript, javascriptreact"
+  },
+  "redux useSelector": {
+    "prefix": "usesel",
+    "body": [
+      "const ${3:selector} = useSelector$1(${2:state});"
+    ],
+    "description": "redux useSelector",
+    "scope": "javascript, javascriptreact"
+  },
+  "redux useSelector ts": {
+    "prefix": "usesel",
+    "body": [
+      "const ${3:selector} = useSelector$1(${2:state});"
+    ],
+    "description": "redux useSelector ts",
+    "scope": "typescript, typescriptreact"
+  },
+  "redux middleware": {
+    "prefix": "midw",
+    "body": [
+      "const ${1:middleware} = (store) => (next) => (action) => {",
+      "  ${0:// code}",
+      "}"
+    ],
+    "description": "redux middleware",
+    "scope": "javascript, javascriptreact"
+  },
+  "redux query hook": {
+    "prefix": "usertkhk",
+    "body": [
+      "const { $4 } = ${1:sliceName}.${2:hookName}($3);"
+    ],
+    "description": "redux query hook",
+    "scope": "javascript, javascriptreact"
+  },
   // ------------------------------------------
-  //   nextjs snippets imported from `nextjs snippets ts and jsx` extension 
+  //   nextjs snippets imported from `nextjs snippets ts and jsx` extension
   // ------------------------------------------
-
   // --- Nextjs JavaScript --- //
+  "ReactFunctionalClientComponent": {
+    "prefix": "rfcc",
+    "body": [
+      "\"use client\"",
+      "",
+      "export default function ${1:${TM_FILENAME_BASE}}() {",
+      "  return (",
+      "    <div>${1:first}</div>",
+      "  )",
+      "}",
+      ""
+    ],
+    "description": "ReactFunctionalClientComponent",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
   "NextJS getServerSideProps React FC": {
     "prefix": "nextpage",
     "scope": "javascript, javascriptreact",
@@ -1220,25 +1105,33 @@
   "Import useRouter": {
     "prefix": "imrouter",
     "scope": "javascript, javascriptreact",
-    "body": ["import { useRouter } from 'next/router'\n"],
+    "body": [
+      "import { useRouter } from 'next/router'\n"
+    ],
     "description": "Import useRouter"
   },
   "Import Next Link Component": {
     "prefix": "imlink",
     "scope": "javascript, javascriptreact",
-    "body": ["import Link from 'next/link'\n"],
+    "body": [
+      "import Link from 'next/link'\n"
+    ],
     "description": "Import Next Link Component"
   },
   "Import Next Image Component": {
     "prefix": "imimg",
     "scope": "javascript, javascriptreact",
-    "body": ["import Image from 'next/image'\n"],
+    "body": [
+      "import Image from 'next/image'\n"
+    ],
     "description": "Import Next Image Component"
   },
   "Import Next Head Component": {
     "prefix": "imhead",
     "scope": "javascript, javascriptreact",
-    "body": ["import Head from 'next/head'\n"],
+    "body": [
+      "import Head from 'next/head'\n"
+    ],
     "description": "Import Next Head Component"
   },
   "Use Next Image Component": {
@@ -1258,17 +1151,21 @@
   "Use Next Link Component": {
     "prefix": "nextlink",
     "scope": "javascript, javascriptreact",
-    "body": ["<Link${1} href=\"${2}\">", "  ${3}", "</Link$>"],
+    "body": [
+      "<Link${1} href=\"${2}\">",
+      "  ${3}",
+      "</Link$>"
+    ],
     "description": "Use Next Link Component"
   },
   "next/navigation useRouter": {
     "prefix": "userout",
     "scope": "typescript, typescriptreact, javascript, javascriptreact",
-    "body": ["const route = useRouter${0}()"],
+    "body": [
+      "const route = useRouter${0}()"
+    ],
     "description": "next/navigation useRouter"
   },
-  
-
   // --- Nextjs TypeScript --- //
   "NextJS getServerSideProps React FC Typescript": {
     "prefix": "nextpage",
@@ -1524,25 +1421,33 @@
   "Import useRouter Typescript": {
     "prefix": "imrouter",
     "scope": "typescript, typescriptreact",
-    "body": ["import { useRouter } from 'next/router'\n"],
+    "body": [
+      "import { useRouter } from 'next/router'\n"
+    ],
     "description": "Import useRouter"
   },
   "Import Next Link Component Typescript": {
     "prefix": "imlink",
     "scope": "typescript, typescriptreact",
-    "body": ["import Link from 'next/link'\n"],
+    "body": [
+      "import Link from 'next/link'\n"
+    ],
     "description": "Import Next Link Component"
   },
   "Import Next Image Component Typescript": {
     "prefix": "imimg",
     "scope": "typescript, typescriptreact",
-    "body": ["import Image from 'next/image'\n"],
+    "body": [
+      "import Image from 'next/image'\n"
+    ],
     "description": "Import Next Image Component"
   },
   "Import Next Head Component Typescript": {
     "prefix": "imhead",
     "scope": "typescript, typescriptreact",
-    "body": ["import Head from 'next/head'\n"],
+    "body": [
+      "import Head from 'next/head'\n"
+    ],
     "description": "Import Next Head Component"
   },
   "Use Next Image Component Typescript": {
@@ -1562,7 +1467,11 @@
   "Use Next Link Component Typescript": {
     "prefix": "nextlink",
     "scope": "typescript, typescriptreact",
-    "body": ["<Link${1} href=\"${2}\">", "  ${3}", "</Link$>"],
+    "body": [
+      "<Link${1} href=\"${2}\">",
+      "  ${3}",
+      "</Link$>"
+    ],
     "description": "Use Next Link Component"
   }
 }

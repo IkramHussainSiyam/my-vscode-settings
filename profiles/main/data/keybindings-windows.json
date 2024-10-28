@@ -623,10 +623,6 @@
     "when": "codeium.commandEnabled && editorTextFocus && !inlineSuggestionsVisible"
   },
   {
-    "key": "ctrl+alt+p",
-    "command": "extension.createProjectFromTemplate"
-  },
-  {
     "key": "ctrl+alt+t",
     "command": "workbench.action.quickTextSearch"
   },
@@ -655,5 +651,32 @@
   {
     "key": "ctrl+g p",
     "command": "git.pushTo"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "-pieces-vscode.search"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.pinEditor"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.unpinEditor",
+    "when": "activeEditorIsPinned"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-pieces-vscode.saveToPieces",
+    "when": "editorHasMultipleSelections || editorHasSelection || editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "-notebook.cell.pasteAbove",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "ctrl+alt+r t",
+    "command": "typescript.restartTsServer"
   }
 ]
