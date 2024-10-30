@@ -678,5 +678,9 @@
   {
     "key": "ctrl+alt+r t",
     "command": "typescript.restartTsServer"
+  },
+  {
+    "key": "ctrl+shift+alt+s p",
+    "command": "pieces-vscode.saveToPiecesPalette"
   }
 ]

@@ -1,4 +1,25 @@
 {
+  // ----------------------------------
+  //  🔴 SYNC SETTINGS REPO CONFIG 🔴
+  // ----------------------------------
+
+  //   # current machine's name, optional; it can be used to filter settings or in the commit message
+  // hostname: "IkramHussainSiyam"
+  // # more details at https://github.com/zokugun/vscode-sync-settings/blob/master/docs/hostname.md
+
+  // # selected profile, required
+  // profile: main
+  // # repository to sync the settings with, required
+
+  // # sync on remote git
+  // repository:
+  //   type: git
+  //   # url of the remote git repository to sync with, required
+  //   url: https://github.com/IkramHussainSiyam/my-vscode-settings.git
+  //   # branch to sync on, optional (set to `master` by default)
+  //   branch: master
+  //   # how to personalize the commit messages at https://github.com/zokugun/vscode-sync-settings/blob/master/docs/commit-messages.md
+
   // ----- token color customaization ----- //
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -30,7 +51,7 @@
   "editor.mouseWheelZoom": true,
   "window.zoomLevel": 1.3, // range: 1.3 - 2
   "workbench.editor.splitInGroupLayout": "vertical",
-  "workbench.preferredLightColorTheme": "Ayu | Unified Glow",
+  "workbench.preferredLightColorTheme": "Tokyo night | Unified Glow",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.type": "toggles",
@@ -314,14 +335,15 @@
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "top",
   "workbench.editorAssociations": {
-    "*.db": "default"
+    "*.db": "default",
+    "*.dll": "default"
   },
   "pieces.code-lens": false,
   "files.autoSave": "afterDelay",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "window.newWindowDimensions": "inherit",
   "workbench.editor.empty.hint": "hidden",
-  "workbench.iconTheme": "kawaii-vscode-icon-material",
+  "workbench.iconTheme": "kawaii-vscode-icon-vscode",
   "editor.accessibilitySupport": "off",
   "git.confirmSync": false,
   "[snippets]": {

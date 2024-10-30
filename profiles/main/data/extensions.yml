@@ -1,10 +1,10 @@
 disabled:
   - id: pomdtr.excalidraw-editor
     uuid: 3dc917d8-e986-4abf-8159-6fc2233995bd
-  - id: Postman.postman-for-vscode
-    uuid: 48fcb244-71c2-4877-aed3-29b36098a411
   - id: ms-vsliveshare.vsliveshare
     uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
+  - id: Postman.postman-for-vscode
+    uuid: 48fcb244-71c2-4877-aed3-29b36098a411
   - id: Prisma.prisma
     uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
   - id: YoavBls.pretty-ts-errors
