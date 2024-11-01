@@ -1,9 +1,1 @@
-{
-  "las": {
-    "prefix": "RID",
-    "description": "Random UID",
-    "body": [
-      "crypto.randomUUID()"
-    ]
-  }
-}
+{}

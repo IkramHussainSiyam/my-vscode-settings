@@ -32,19 +32,18 @@
     ]
   },
 
+  // ----- Custom CSS and JS Loader Settings ----- //
+  "vscode_custom_css.imports": [
+    "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css/style.css"
+  ],
   // ----- fonts settings ----- //
-  "editor.fontFamily": "Recursive Monospace Casual Mono Casual,Comic Code,Cascadia Code,consolas",
+  // "editor.fontFamily": "Roboto Mono, Jetbrains mono, Recursive Monospace Casual Mono Casual, Comic Code, Cascadia Code, consolas",
   "editor.fontWeight": "400",
   "editor.lineHeight": 1.65,
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
   "editor.fontLigatures": "'dlig','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10','ss11','zero'",
-  "editor.fontSize": 17,
-
-  // ----- Custom CSS and JS Loader Settings ----- //
-  "vscode_custom_css.imports": [
-    "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css/style.css"
-  ],
+  "editor.fontSize": 18,
 
   // ----- UI settings ----- //
   "breadcrumbs.enabled": false,
