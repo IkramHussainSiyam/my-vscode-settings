@@ -43,6 +43,30 @@
     ],
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
+  "Higher Order Function": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "hof",
+    "description": "Higher Order Function",
+    "body": [
+      "function ${1:functionName}() {",
+      "  return function () {",
+      "    $0",
+      "  };",
+      "}"
+    ]
+  },
+  "Async Higher Order Function": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "ahof",
+    "description": "Higher Order Function",
+    "body": [
+      "async function ${1:functionName}() {",
+      "  return function () {",
+      "    $0",
+      "  };",
+      "}"
+    ]
+  },
   "Async Regular Function": {
     "prefix": "arfn",
     "body": [
@@ -449,7 +473,7 @@
   "Custom Hook Syntax": {
     "prefix": "usechk",
     "body": [
-      "const ${3:value} = use${1:HookName}(${2:param})$0"
+      "const ${3:value} = use${1:HookName}($2)"
     ],
     "description": "custom hook",
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
@@ -1467,4 +1491,12 @@
     ],
     "description": "Use Next Link Component"
   },
+  "javascript console handler": {
+    "scope": "javascriptreact,javascript,typescriptreact,typescript",
+    "prefix": "cons",
+    "description": "javascript console handler",
+    "body": [
+      "console.${1:type}($0);"
+    ]
+  }
 }

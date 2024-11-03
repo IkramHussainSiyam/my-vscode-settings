@@ -1,8 +1,8 @@
 disabled:
-  - id: ms-vsliveshare.vsliveshare
-    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: pomdtr.excalidraw-editor
     uuid: 3dc917d8-e986-4abf-8159-6fc2233995bd
+  - id: ms-vsliveshare.vsliveshare
+    uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: Postman.postman-for-vscode
     uuid: 48fcb244-71c2-4877-aed3-29b36098a411
   - id: Prisma.prisma
@@ -10,6 +10,8 @@ disabled:
   - id: YoavBls.pretty-ts-errors
     uuid: 1e149c89-8f97-447e-863d-1146f0ad1b70
 enabled:
+  - id: adpyke.codesnap
+    uuid: 8c1fc960-44b1-45e8-89b5-85f982fdaf27
   - id: be5invis.vscode-custom-css
     uuid: 1b160753-ae5e-42bb-82ad-d115ce5c10f4
   - id: bradlc.vscode-tailwindcss
@@ -42,6 +44,8 @@ enabled:
     uuid: c94ffe03-c74b-42de-86e6-a1a5bb4cc6aa
   - id: ritwickdey.LiveServer
     uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
+  - id: SimonSiefke.svg-preview
+    uuid: 51cd7dfb-14fa-4fcc-aa42-16add9281456
   - id: usernamehw.errorlens
     uuid: 9d8c32ab-354c-4daf-a9bf-20b633734435
   - id: zokugun.cron-tasks

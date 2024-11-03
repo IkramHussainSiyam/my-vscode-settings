@@ -37,18 +37,18 @@
     "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css/style.css"
   ],
   // ----- fonts settings ----- //
-  // "editor.fontFamily": "Roboto Mono, Jetbrains mono, Recursive Monospace Casual Mono Casual, Comic Code, Cascadia Code, consolas",
+  "editor.fontFamily": "Roboto Mono, Recursive Monospace Casual Mono Casual, Comic Code, Jetbrains mono, Cascadia Code, consolas",
   "editor.fontWeight": "400",
   "editor.lineHeight": 1.65,
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
   "editor.fontLigatures": "'dlig','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10','ss11','zero'",
-  "editor.fontSize": 18,
+  "editor.fontSize": 17,
 
   // ----- UI settings ----- //
   "breadcrumbs.enabled": false,
   "editor.mouseWheelZoom": true,
-  "window.zoomLevel": 1.3, // range: 1.3 - 2
+  "window.zoomLevel": 1.5, // range: 1.3 - 2
   "workbench.editor.splitInGroupLayout": "vertical",
   "workbench.preferredLightColorTheme": "Tokyo night | Unified Glow",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
@@ -293,7 +293,6 @@
   "markdown.preview.fontSize": 14,
   "terminal.integrated.env.windows": {},
   "terminal.integrated.fontFamily": "Recursive Mono Casual",
-  "workbench.layoutControl.enabled": false,
   "terminal.integrated.fontSize": 16,
   "excalidraw.theme": "auto",
   "window.menuBarVisibility": "compact",
@@ -347,5 +346,6 @@
   "git.confirmSync": false,
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "workbench.layoutControl.enabled": false
 }
