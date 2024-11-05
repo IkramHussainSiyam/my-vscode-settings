@@ -422,11 +422,6 @@
     "command": "workbench.action.files.toggleActiveEditorReadonlyInSession"
   },
   {
-    "key": "ctrl+p ctrl+m",
-    "command": "markdown-preview-enhanced.openPreview",
-    "when": "editorLangId == 'markdown'"
-  },
-  {
     "key": "ctrl+shift+v",
     "command": "-markdown-preview-enhanced.openPreview",
     "when": "editorLangId == 'markdown'"
@@ -682,5 +677,10 @@
   {
     "key": "ctrl+shift+alt+s p",
     "command": "pieces-vscode.saveToPiecesPalette"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
   }
 ]
