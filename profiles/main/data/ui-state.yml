@@ -14,8 +14,8 @@ eamodio.gitlens: "{\"gitlens:views:welcome:visible\":true,\"gitlens:premium:sub\
   Siyam\",\"email\":\"ikramhussaindev404@gmail.com\",\"verified\":true,\"create\
   dOn\":\"2024-10-09T00:30:57.181Z\"},\"activeOrganization\":{\"id\":\"6705cec1\
   26232d4bf720de21\",\"name\":\"ikramhussaindev404's
-  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1730794646308}},\"gitl\
-  ens:version\":\"15.6.2\",\"gitlens:synced:version\":\"15.6.2\",\"gitlens:usag\
+  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1730890954594}},\"gitl\
+  ens:version\":\"15.6.3\",\"gitlens:synced:version\":\"15.6.3\",\"gitlens:usag\
   es\":{\"welcomeWebview:shown\":{\"count\":2,\"firstUsedAt\":1729827035664,\"l\
   astUsedAt\":1729827062443},\"draftsView:shown\":{\"count\":3,\"firstUsedAt\":\
   1729827198030,\"lastUsedAt\":1729907366180},\"workspacesView:shown\":{\"count\
@@ -69,21 +69,21 @@ eamodio.gitlens: "{\"gitlens:views:welcome:visible\":true,\"gitlens:premium:sub\
   duct-list\"}],[\"c:/Users/rkrab/OneDrive/Pictures/passman-test/passman\",{\"v\
   isibility\":\"private\",\"timestamp\":1730803918272,\"remotesHash\":\"github.\
   com/IsmailHussain903/passman\"}]],\"gitlens:gk:e7a70ccb-c4cb-4445-8286-33a5bc\
-  025f03:checkin\":{\"v\":1,\"timestamp\":1730794645895,\"data\":{\"user\":{\"id\
+  025f03:checkin\":{\"v\":1,\"timestamp\":1730890953486,\"data\":{\"user\":{\"id\
   \":\"e7a70ccb-c4cb-4445-8286-33a5bc025f03\",\"name\":\"Ikram Hussain
   Siyam\",\"email\":\"ikramhussaindev404@gmail.com\",\"status\":\"activated\",\
   \"createdDate\":\"2024-10-09T00:30:57.181Z\"},\"licenses\":{\"paidLicenses\":\
   {},\"effectiveLicenses\":{}},\"nextOptInDate\":\"2025-01-14T00:00:00.000Z\"}},\
   \"gitlens:gk:e7a70ccb-c4cb-4445-8286-33a5bc025f03:organizations\":{\"v\":1,\"\
-  timestamp\":1730794646293,\"data\":[{\"id\":\"6705cec126232d4bf720de21\",\"na\
+  timestamp\":1730890954579,\"data\":[{\"id\":\"6705cec126232d4bf720de21\",\"na\
   me\":\"ikramhussaindev404's
   organization\",\"role\":\"owner\"}]},\"gitlens:launchpad:indicator:hasLoaded\
   \":true,\"gitlens:avatars\":[[\"0a41587c2b4f39ea0d83fa639a7424dc:64\",{\"uri\
   \":\"https://avatars.githubusercontent.com/u/174877359?s%3D64%26v%3D4\",\"tim\
-  estamp\":1730804247813}]]}"
-GitHub.remotehub: '{"27b933400eec24b9f649dba088b98e65/metadata/vscode-vfs://github/IkramHussainSiyam/assignment-4-product-list":"{\"schemaVersion\":1,\"revision\":\"bc1f92d5749de272c73d64352e4233820578a540\"}","workspaceRepositories":"{\"schemaVersion\":1,\"workspaceRepositories\":[[\"27b933400eec24b9f649dba088b98e65/vscode-vfs://github/IkramHussainSiyam/assignment-4-product-list\",{\"workspaceId\":\"27b933400eec24b9f649dba088b98e65\",\"uri\":{\"$mid\":1,\"fsPath\":\"\\\\IkramHussainSiyam\\\\assignment-4-product-list\",\"_sep\":1,\"external\":\"vscode-vfs://github/IkramHussainSiyam/assignment-4-product-list\",\"path\":\"/IkramHussainSiyam/assignment-4-product-list\",\"scheme\":\"vscode-vfs\",\"authority\":\"github\"},\"canonicalUri\":{\"$mid\":1,\"path\":\"/IkramHussainSiyam/assignment-4-product-list\",\"scheme\":\"vscode-vfs\",\"authority\":\"github\"},\"name\":\"IkramHussainSiyam/assignment-4-product-list\",\"provider\":{\"id\":\"github\",\"name\":\"GitHub\"},\"ref\":{\"type\":0,\"name\":\"master\"},\"timestamp\":1730795441975}]]}","27b933400eec24b9f649dba088b98e65/operations/vscode-vfs://github/IkramHussainSiyam/assignment-4-product-list":"{\"schemaVersion\":1,\"operations\":[]}"}'
+  estamp\":1730804247813}],[\"8a299445925e5e2c92fbd18b70736713:64\",{\"uri\":\"\
+  https://avatars.githubusercontent.com/u/123804287?s%3D64%26v%3D4\",\"timestamp\
+  \":1730890975336}]]}"
 MeshIntelligentTechnologiesInc.pieces-vscode: '{"pieces.anonymousId":"7af73be2-117e-4271-bf7f-af311591e7fe","onboarded":true,"hasRanServer":true,"did-show-insert-education-notification":true,"copilot-state-flutter":"{\"context\":{\"conversations\":{},\"global\":{\"websites\":[],\"anchors\":[]}},\"aesthetics\":{\"global\":{\"userColor\":null,\"systemColor\":null}},\"runtime\":{\"global\":{\"selected\":\"GPT-4o\",\"downloads\":{},\"defaults\":{\"cloud\":null,\"local\":null}}},\"pipelines\":{\"global\":{\"standard\":\"generalizedCodeDialog\"}}}"}'
-ms-vscode.remote-repositories: '{"version":"0.42.0"}'
 ms-vsliveshare.vsliveshare: '{"vsliveshare-first-activation-flag":"1.0.5941","firstActivationTime":1728410960045,"anonymousAuthReloadFlag":null,"wasForceReload":false,"firstActivationVersion":"1.0.5941","VSCode.ABExp.FeatureData":{"features":["account-aacf","authProviderPicker","config.editor.experimental.asyncTokenization","copilotchat.renameSuggestionsDelayBeforeFetch","followIndicator","livesharecontinuousaa","mindaroBinariesVersion","nativeAuth","portForwardingServiceEnabled-development","portForwardingServiceEnabled-production","portForwardingServiceEnabled-staging","readWriteAnonymous","resyncOnMisappliedEdit","saveDirtyDocOnReaddcf","shouldUseGrpcService","waitForPendingEditOnDispose"],"assignmentContext":"vsliv368:30146709;vsrea433:30283384;vspor879:30202332;vspor708:30202333;vspor363:30204092;vslsvssav100cf:30294723;vsnat461:30259396;binariesv615:30325510;vsfol871:30383134;vslsresync:30385087;vsaa593cf:30376535;vs954:30425854;c4g48928:30535728;asynctok:30898717;jg8ic977:31013176;","configs":[{"Id":"vscode","Parameters":{"account-aa":false,"authProviderPicker":true,"config.editor.experimental.asyncTokenization":true,"copilotchat.renameSuggestionsDelayBeforeFetch":250,"followIndicator":true,"livesharecontinuousaa":true,"mindaroBinariesVersion":"1.0.20210615.1","nativeAuth":true,"portForwardingServiceEnabled-development":true,"portForwardingServiceEnabled-production":true,"portForwardingServiceEnabled-staging":true,"readWriteAnonymous":true,"resyncOnMisappliedEdit":true,"saveDirtyDocOnReadd":false,"shouldUseGrpcService":true,"waitForPendingEditOnDispose":true}}]},"authenticationProvider":"github","lastUse":1729265644950}'
 Postman.postman-for-vscode: '{"first-time-activation":true,"kv-migrations":["partitionMigration"]}'
 ritwickdey.LiveServer: '{"liveServer.setup.version":"5.7.9"}'
@@ -95,11 +95,11 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   Requests\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.github-pul\
   l-request\",\"name\":\"GitHub Pull
   Request\",\"isBuiltin\":false},{\"id\":\"workbench.views.service.sidebar.c0cd\
-  135c-4dfe-498c-8da1-89f9e560b3cc\",\"themeIcon\":{\"id\":\"default-view-icon\
-  \"},\"name\":\"workbench.views.service.sidebar.c0cd135c-4dfe-498c-8da1-89f9e5\
-  60b3cc\",\"isBuiltin\":true,\"views\":[{\"when\":\"npm:showScriptExplorer\"}]\
-  },{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-view-\
-  icon\"},\"name\":\"Source
+  135c-4dfe-498c-8da1-89f9e560b3cc\",\"themeIcon\":{\"id\":\"json\"},\"name\":\
+  \"NPM
+  Scripts\",\"isBuiltin\":true,\"views\":[{\"when\":\"npm:showScriptExplorer\"}\
+  ]},{\"id\":\"workbench.view.scm\",\"themeIcon\":{\"id\":\"source-control-view\
+  -icon\"},\"name\":\"Source
   Control\",\"isBuiltin\":true,\"views\":[{},{\"when\":\"scm.providerCount &&
   scm.providerCount != '0'\"},{\"when\":\"scm.providerCount && scm.providerCount
   !=
@@ -164,10 +164,10 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   virtualWorkspace\"},{\"when\":\"searchDeprecatedExtensions\"}]},{\"id\":\"wor\
   kbench.view.remote\",\"themeIcon\":{\"id\":\"remote-explorer-view-icon\"},\"n\
   ame\":\"Remote
-  Explorer\",\"isBuiltin\":true,\"views\":[{}]},{\"id\":\"workbench.view.search\
-  \",\"themeIcon\":{\"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\
-  \":true,\"views\":[{}]},{\"id\":\"workbench.view.extension.pieces-copilot\",\
-  \"name\":\"Pieces
+  Explorer\",\"isBuiltin\":true,\"views\":[]},{\"id\":\"workbench.view.search\",\
+  \"themeIcon\":{\"id\":\"search-view-icon\"},\"name\":\"Search\",\"isBuiltin\"\
+  :true,\"views\":[{}]},{\"id\":\"workbench.view.extension.pieces-copilot\",\"n\
+  ame\":\"Pieces
   Copilot\",\"isBuiltin\":false},{\"id\":\"workbench.view.extension.test\",\"th\
   emeIcon\":{\"id\":\"test-view-icon\"},\"name\":\"Testing\",\"isBuiltin\":true,\
   \"views\":[{\"when\":\"testing.providerCount >
@@ -189,7 +189,8 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
   yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
-  Changes\",\"isBuiltin\":true,\"views\":[]}]"
+  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
+  ]"
 workbench.activityBar.location: top
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.view.extension.codeium","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.pieces-copilot","pinned":true,"visible":false,"order":14},{"id":"workbench.views.service.auxiliarybar.9d863fba-13eb-4d11-a793-88f53713fbf8","pinned":true,"visible":false},{"id":"workbench.view.extension.chatgpt-activitybar","pinned":true,"visible":false,"order":11},{"id":"workbench.panel.chatEditing","pinned":true,"visible":false,"order":100},{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100}]'
 workbench.auxiliarybar.placeholderPanels: "[{\"id\":\"workbench.view.debug\",\"\
@@ -225,7 +226,7 @@ workbench.auxiliarybar.placeholderPanels: "[{\"id\":\"workbench.view.debug\",\"\
   ExtensionInvalid || chatPanelParticipantRegistered\"}]}]"
 workbench.auxiliaryBar.size: "333"
 workbench.chat.hideMovedChatWelcomeView: "true"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["plaintext",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":true,"order":2},{"id":"timeline","isHidden":true,"order":3},{"id":"workbench.explorer.openEditorsView","isHidden":false,"order":1},{"id":"workbench.explorer.emptyView","isHidden":false,"order":0},{"id":"npm","isHidden":false,"order":4},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"liveshare.session.explorer","isHidden":false},{"id":"gitpod-login","isHidden":false},{"id":"gitpod-workspaces","isHidden":false},{"id":"gitpod-workspace","isHidden":false},{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":false},{"id":"codeium.chatPanelView","isHidden":false},{"id":"continue.continueGUIView","isHidden":false},{"id":"codetour.tours","isHidden":false},{"id":"chatgpt.sidebar","isHidden":false},{"id":"todo-tree-view","isHidden":false},{"id":"postman-for-vscode.sidebar-panel","isHidden":false},{"id":"postman-console-view","isHidden":false},{"id":"liveshare.session","isHidden":false},{"id":"liveshare.help","isHidden":false},{"id":"liveshare.devtools","isHidden":false},{"id":"supermaven-view","isHidden":false},{"id":"tabnine.chat","isHidden":false},{"id":"tabnine.chat.preview_ended","isHidden":false},{"id":"tabnine.chat.authenticate","isHidden":false},{"id":"tabnine.chat.not_part_of_a_team","isHidden":false},{"id":"tabnine.loading","isHidden":false},{"id":"snippetExplorer","isHidden":false},{"id":"snippetScopeExplorer","isHidden":false},{"id":"codesnippetsai.view","isHidden":false},{"id":"codesnippetsai.treeView","isHidden":false},{"id":"discordTreeView","isHidden":false},{"id":"iridium.npm","isHidden":false},{"id":"todo.views.1files","isHidden":false},{"id":"todo.views.2embedded","isHidden":false},{"id":"todo-list","isHidden":false},{"id":"snippetsmanager-snippetsView-WorkspaceSnippetsExplorerView","isHidden":false},{"id":"snippetsmanager-snippetsView-UserSnippetsExplorerView","isHidden":false},{"id":"snippetsmanager-snippetsView-ExtensionSnippetsExplorerView","isHidden":false},{"id":"snippetsmanager-snippetsView-HelpAndFeedback","isHidden":false},{"id":"snippets-manager-sleek-snippetsView-WorkspaceSnippetsExplorerView","isHidden":false},{"id":"snippets-manager-sleek-snippetsView-UserSnippetsExplorerView","isHidden":false},{"id":"snippets-manager-sleek-snippetsView-ExtensionSnippetsExplorerView","isHidden":false},{"id":"tomjsSnippetsManager","isHidden":false},{"id":"easySnippets","isHidden":false},{"id":"snippetsExplorer","isHidden":false},{"id":"wsSnippetsExplorer","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center
