@@ -450,7 +450,8 @@
   },
   {
     "key": "shift+alt+w",
-    "command": "editor.emmet.action.wrapWithAbbreviation"
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "when": "editorHasSelection"
   },
   {
     "key": "ctrl+n ctrl+t",

@@ -145,11 +145,19 @@
     ],
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
+  "Crypto Random UID": {
+    "prefix": "crid",
+    "description": "Crypto Random UID",
+    "body": [
+      "crypto.randomUUID()"
+    ],
+    "scope": "typescript,typescriptreact,javascript,javascriptreact"
+  },
   "Random UID": {
     "prefix": "rid",
     "description": "Random UID",
     "body": [
-      "crypto.randomUUID()"
+      "getRandomID()"
     ],
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
@@ -285,7 +293,7 @@
       "try {",
       "  $0",
       "} catch (error) {",
-      "  throw error",
+      "  throw new Error(error)",
       "}"
     ],
     "description": "try catch block",
@@ -1491,12 +1499,50 @@
     ],
     "description": "Use Next Link Component"
   },
-  "javascript console handler": {
+  "javascript console log": {
     "scope": "javascriptreact,javascript,typescriptreact,typescript",
-    "prefix": "cons",
-    "description": "javascript console handler",
+    "prefix": "clg",
+    "description": "javascript console log",
     "body": [
-      "console.${1:type}($0);"
+      "console.log($0)"
+    ]
+  },
+  "javascript console error": {
+    "scope": "javascriptreact,javascript,typescriptreact,typescript",
+    "prefix": "cle",
+    "description": "javascript console error",
+    "body": [
+      "console.error($0)"
+    ]
+  },
+  "javascript console dir": {
+    "scope": "javascriptreact,javascript,typescriptreact,typescript",
+    "prefix": "cld",
+    "description": "javascript console dir",
+    "body": [
+      "console.dir($0)"
+    ]
+  },
+  "impms": {
+    "scope": "javascriptreact",
+    "prefix": "impms",
+    "description": "import framer motion",
+    "body": [
+      "import { motion } from \"framer-motion\";"
+    ]
+  },
+  "React styled component": {
+    "scope": "javascriptreact,typescriptreact,javascript,typescript",
+    "prefix": "stc",
+    "description": "React styled component",
+    "body": [
+      "import styled from \"styled-components\";",
+      "",
+      "const ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}} = styled.${2:div}`",
+      "  $0",
+      "`;",
+      "",
+      "export default ${1:first};"
     ]
   }
 }
