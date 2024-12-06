@@ -38,19 +38,21 @@
   ],
   // ----- fonts settings ----- //
   "editor.fontFamily": "Roboto Mono, Recursive Monospace Casual Mono Casual, Comic Code, Jetbrains mono, Cascadia Code, consolas",
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "360",
   "editor.lineHeight": 1.6,
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
   "editor.fontLigatures": "'dlig','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10','ss11','zero'",
-  "editor.fontSize": 16,
-  "window.zoomLevel": 1.3, // range: 1.3 - 2
-
-  // ----- UI settings ----- //
-  "breadcrumbs.enabled": false,
+  "editor.fontSize": 15.5,
+  "window.zoomLevel": 1.3,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorStyleInactive": "none",
   "editor.mouseWheelZoom": true,
   "workbench.editor.splitInGroupLayout": "vertical",
-  "workbench.preferredLightColorTheme": "Tokyo night | Unified Glow",
+  "workbench.preferredLightColorTheme": "Gruvbox Dark Hard",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.type": "toggles",
@@ -62,7 +64,7 @@
   "window.title": "${activeEditorMedium}",
   "workbench.editor.labelFormat": "short",
   "editor.occurrencesHighlight": "off",
-  "editor.padding.top": 3,
+  "editor.padding.top": 12,
   "editor.lineNumbers": "on",
   "workbench.editor.showTabs": "multiple",
 
@@ -122,9 +124,6 @@
   "typescript.implementationsCodeLens.enabled": true,
   "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
   "merge-conflict.codeLens.enabled": true,
-
-  // ----- Layouts settings ----- //
-  "editor.cursorStyle": "line",
   "errorLens.enableOnDiffView": true,
   "errorLens.ignoreUntitled": true,
   "errorLens.margin": "2ch",
@@ -141,7 +140,6 @@
   "editor.autoClosingQuotes": "always",
   "editor.autoClosingBrackets": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.cursorBlinking": "expand",
   "editor.defaultColorDecorators": true,
 
   // ----- Tailwind settings ----- //
@@ -150,11 +148,11 @@
     "strings": true
   },
   "tailwindCSS.experimental.classRegex": [
+    "twc\\.[^`]+`([^`]*)`",
+    "twc\\([^`]*?\\)`([^`]*)`",
+    ["twc\\.[^`]+\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["twc\\([^`]*?\\).*?\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
     ["clsx\\(([^]*)\\)", "(?:'|\"|`)([^\"'`]*)(?:'|\"|`)"],
-    ["*classnames\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
-    ["classnames\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
-    ["*classNames\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
-    ["*ClassNames\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
     ["classNames\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
     ["toastClassName\\(([^)]*)\\)", "[\"'`]([^\"'`]*)[\"'`]"],
     "tailwind\\('([^)]*)\\')",
@@ -276,14 +274,11 @@
   "explorer.expandSingleFolderWorkspaces": false,
   "explorer.autoReveal": true,
   "editor.linkedEditing": false,
-  "editor.cursorSmoothCaretAnimation": "on",
   "explorer.autoRevealExclude": {
     "**/.vscode/linenote": true,
     "**/server": true,
     "**/html_template": true
   },
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorStyleInactive": "none",
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "debug.showInlineBreakpointCandidates": false,
@@ -300,7 +295,6 @@
   "terminal.integrated.fontFamily": "Recursive Mono Casual",
   "terminal.integrated.fontSize": 16,
   "excalidraw.theme": "auto",
-  "window.menuBarVisibility": "compact",
   "terminal.integrated.profiles.windows": {
     "PowerShell": {
       "source": "PowerShell",
@@ -342,7 +336,6 @@
     "*.dll": "default"
   },
   "pieces.code-lens": false,
-  "files.autoSave": "afterDelay",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "window.newWindowDimensions": "inherit",
   "workbench.editor.empty.hint": "hidden",
@@ -353,13 +346,60 @@
   },
   "workbench.layoutControl.enabled": false,
   "gitlens.codeLens.enabled": false,
-  "workbench.iconTheme": "bearded-icons",
-  "material-icon-theme.activeIconPack": "react_redux",
+  "material-icon-theme.activeIconPack": "angular",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.currentLine.enabled": false
+  "gitlens.currentLine.enabled": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  },
+  "terminal.integrated.tabs.location": "left",
+  "window.menuBarVisibility": "compact",
+  "explorer.compactFolders": false,
+  "files.autoSave": "afterDelay",
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showConstructors": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showEnums": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showInterfaces": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showModules": false,
+  "breadcrumbs.showNamespaces": false,
+  "breadcrumbs.showNull": false,
+  "breadcrumbs.showNumbers": false,
+  "breadcrumbs.showObjects": false,
+  "breadcrumbs.showOperators": false,
+  "breadcrumbs.showPackages": false,
+  "breadcrumbs.showProperties": false,
+  "breadcrumbs.showStrings": false,
+  "breadcrumbs.showStructs": false,
+  "breadcrumbs.showTypeParameters": false,
+  "breadcrumbs.showVariables": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.symbolPath": "off",
+  "notebook.breadcrumbs.showCodeCells": false,
+  "material-icon-theme.folders.color": "#90a4ae",
+  "workbench.iconTheme": "material-icon-theme"
 }
