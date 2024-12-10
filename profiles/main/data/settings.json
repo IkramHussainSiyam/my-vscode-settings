@@ -43,8 +43,8 @@
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
   "editor.fontLigatures": "'dlig','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10','ss11','zero'",
-  "editor.fontSize": 15.5,
-  "window.zoomLevel": 1.5,
+  "editor.fontSize": 16,
+  "window.zoomLevel": 1.4,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
@@ -61,19 +61,19 @@
   "explorer.decorations.colors": false,
   "git.decorations.enabled": true,
   "window.commandCenter": false,
-  "window.title": "${activeEditorMedium}",
+  "window.title": "",
   "workbench.editor.labelFormat": "short",
   "editor.occurrencesHighlight": "off",
 
   // --------------- 🔴 Minimal UI Settings 🔴 --------------- //
   "editor.padding.top": 12,
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "editor.guides.indentation": true,
   "editor.hover.hidingDelay": 1500,
   "workbench.tips.enabled": false,
   "workbench.statusBar.visible": false,
   "window.customMenuBarAltFocus": false,
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.lineNumbers": "off",
   // customs color settings //
   "workbench.colorCustomizations": {
@@ -350,7 +350,6 @@
   "pieces.sidePanelViews.suggestedMaterials": false,
   "todo-tree.general.statusBar": "tags",
   "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "top",
   "workbench.editorAssociations": {
     "*.db": "default",
     "*.dll": "default"
@@ -418,5 +417,7 @@
   "breadcrumbs.symbolPath": "off",
   "notebook.breadcrumbs.showCodeCells": false,
   "workbench.iconTheme": "kawaii-vscode-icon-material",
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.enablePreview": false
 }
