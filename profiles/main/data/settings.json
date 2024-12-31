@@ -36,6 +36,7 @@
   "vscode_custom_css.imports": [
     "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css-js/style.css"
   ],
+
   // ----- fonts settings ----- //
   "editor.fontFamily": "Roboto Mono, Jetbrains mono, Recursive Monospace Casual Mono Casual, Comic Code, consolas",
   "editor.fontWeight": "400",
@@ -52,7 +53,7 @@
   "terminal.integrated.cursorStyleInactive": "none",
   "editor.mouseWheelZoom": true,
   "workbench.editor.splitInGroupLayout": "vertical",
-  "workbench.preferredLightColorTheme": "Tokyo night - Unified Glow",
+  "workbench.preferredLightColorTheme": "Next.Js - Unified Glow",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.type": "toggles",
@@ -66,12 +67,12 @@
   "editor.occurrencesHighlight": "off",
 
   // --------------- 🔴 Minimal UI Settings 🔴 --------------- //
+  "workbench.sideBar.location": "right",
+  "explorer.openEditors.visible": 40,
   "editor.padding.top": 12,
-  "workbench.editor.showTabs": "multiple",
   "editor.guides.indentation": true,
   "editor.hover.hidingDelay": 1500,
   "workbench.tips.enabled": false,
-  "workbench.statusBar.visible": false,
   "window.customMenuBarAltFocus": false,
   "breadcrumbs.enabled": true,
   "editor.lineNumbers": "off",
@@ -161,7 +162,7 @@
   "editor.autoClosingQuotes": "always",
   "editor.autoClosingBrackets": "always",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.defaultColorDecorators": true,
+  "editor.defaultColorDecorators": "auto",
 
   // ----- Tailwind settings ----- //
   "scss.validate": false,
@@ -349,7 +350,6 @@
   "pieces.sidePanelViews.exploredMaterials": false,
   "pieces.sidePanelViews.suggestedMaterials": false,
   "todo-tree.general.statusBar": "tags",
-  "workbench.sideBar.location": "right",
   "workbench.editorAssociations": {
     "*.db": "default",
     "*.dll": "default"
@@ -419,5 +419,22 @@
   "workbench.iconTheme": "kawaii-vscode-icon-material",
   "window.menuBarVisibility": "compact",
   "workbench.activityBar.location": "top",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.showTabs": "multiple",
+  "pieces.toShowUpdateExtensionNotification": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.externalBrowser": "chrome",
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.next/**": true,
+    "**/dist/**": true
+  }
 }

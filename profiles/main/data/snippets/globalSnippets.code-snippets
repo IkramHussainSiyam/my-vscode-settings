@@ -305,9 +305,9 @@
   "React Regular Functional Component": {
     "prefix": "rfc",
     "body": [
-      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "export default function $1${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}() {",
       "  return (",
-      "    <div>${1:first}</div>$0",
+      "    <div>$1${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}</div>$0",
       "  )",
       "}",
       ""
@@ -318,9 +318,9 @@
   "React Regular Async Functional Component": {
     "prefix": "arfc",
     "body": [
-      "export default async function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "export default async function $1${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}() {",
       "  return (",
-      "    <div>${1:first}</div>$0",
+      "    <div>$1${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}</div>$0",
       "  )",
       "}",
       ""
@@ -835,9 +835,9 @@
     "body": [
       "\"use client\"",
       "",
-      "export default function ${1:${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}}() {",
+      "export default function $1${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}() {",
       "  return (",
-      "    <div>${1:first}</div>",
+      "    <div>$1${TM_FILENAME_BASE/(.*)/${1:/capitalize}/}</div>",
       "  )",
       "}",
       ""
