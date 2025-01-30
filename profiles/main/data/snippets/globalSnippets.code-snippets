@@ -1,4 +1,14 @@
 {
+  "solidjs effect": {
+    "prefix": "soleff",
+    "description": "solidjs effect",
+    "scope": "javascript,javascriptreact,typescriptreact,typescript",
+    "body": [
+      "createEffect(() => {",
+      "  $0",
+      "});"
+    ]
+  },
   "const variable": {
     "prefix": "cns",
     "body": [
@@ -176,6 +186,14 @@
     ],
     "description": "useState",
     "scope": "typescript,typescriptreact"
+  },
+  "solid state": {
+    "prefix": "solst",
+    "description": "solid state",
+    "scope": "typescript,typescriptreact,javascript,javascriptreact",
+    "body": [
+      "const [${1:signal}, set${1/(.*)/${1:/capitalize}/}] = createSignal$2(${0:initialValue})"
+    ]
   },
   "useEffect": {
     "prefix": "useeff",

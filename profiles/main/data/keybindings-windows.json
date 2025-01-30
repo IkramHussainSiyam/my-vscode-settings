@@ -777,5 +777,15 @@
   {
     "key": "ctrl+enter",
     "command": "editor.action.insertLineAfter"
+  },
+  {
+    "key": "shift+f1",
+    "command": "editor.action.goToReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+f12",
+    "command": "-editor.action.goToReferences",
+    "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   }
 ]

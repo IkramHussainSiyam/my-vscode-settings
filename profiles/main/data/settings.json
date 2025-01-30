@@ -3,30 +3,20 @@
   //  🔴 SYNC SETTINGS REPO CONFIG 🔴
   // ----------------------------------
 
-  //   # current machine's name, optional; it can be used to filter settings or in the commit message
-  // hostname: "IkramHussainSiyam"
-  // # more details at https://github.com/zokugun/vscode-sync-settings/blob/master/docs/hostname.md
-
-  // # selected profile, required
+  // hostname: IkramHussainSiyam
   // profile: main
-  // # repository to sync the settings with, required
-
-  // # sync on remote git
   // repository:
   //   type: git
-  //   # url of the remote git repository to sync with, required
   //   url: https://github.com/IkramHussainSiyam/my-vscode-settings.git
-  //   # branch to sync on, optional (set to `master` by default)
   //   branch: master
-  //   # how to personalize the commit messages at https://github.com/zokugun/vscode-sync-settings/blob/master/docs/commit-messages.md
 
   // ----- token color customaization ----- //
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
-        "scope": "",
+        "scope": " ",
         "settings": {
-          "fontStyle": "italic"
+          "fontStyle": ""
         }
       }
     ]
@@ -38,14 +28,14 @@
   ],
 
   // ----- fonts settings ----- //
-  "editor.fontFamily": "Roboto Mono, Jetbrains mono, Recursive Monospace Casual Mono Casual, Comic Code, consolas",
+  "editor.fontFamily": "Kode Mono, Iosevka Curly, Comic Code, Recursive Monospace Casual Mono Casual",
   "editor.fontWeight": "400",
-  "editor.lineHeight": 1.65,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.6,
+  "window.zoomLevel": 1.6,
+  "editor.fontLigatures": "'calt', 'dlig', 'JSPT'",
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
-  "editor.fontLigatures": "'dlig','ss01','ss02','ss03','ss04','ss05','ss06','ss07','ss08','ss09','ss10','ss11','zero'",
-  "editor.fontSize": 16,
-  "window.zoomLevel": 1.4,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorStyle": "line",
   "editor.cursorBlinking": "expand",
@@ -291,7 +281,8 @@
     "snippets": true,
     "properties": true,
     "plaintext": true,
-    "prisma": true
+    "prisma": true,
+    "tailwindcss": true
   },
   "explorer.expandSingleFolderWorkspaces": false,
   "explorer.autoReveal": true,
@@ -309,8 +300,6 @@
   "markdown.preview.doubleClickToSwitchToEditor": false,
   "markdown.preview.fontFamily": "recursive sans casual,-apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif",
   "codeium.enableCodeLens": false,
-  "editor.codeLensFontFamily": "Recursive Sans Casual",
-  "editor.codeLensFontSize": 12,
   "diffEditor.codeLens": true,
   "markdown.preview.fontSize": 14,
   "terminal.integrated.env.windows": {},
@@ -416,7 +405,6 @@
   "breadcrumbs.showFiles": false,
   "breadcrumbs.symbolPath": "off",
   "notebook.breadcrumbs.showCodeCells": false,
-  "workbench.iconTheme": "kawaii-vscode-icon-material",
   "window.menuBarVisibility": "compact",
   "workbench.activityBar.location": "top",
   "workbench.editor.showTabs": "multiple",
@@ -436,5 +424,18 @@
     "**/node_modules/**": true,
     "**/.next/**": true,
     "**/dist/**": true
+  },
+  "workbench.layoutControl.enabled": false,
+  "catppuccin-noctis-icons.hidesExplorerArrows": false,
+  "editor.codeLensFontSize": 12,
+  "editor.codeLens": false,
+  "workbench.preferredDarkColorTheme": "Best Themes - Github Dark Dimmed",
+  "codesnap.showLineNumbers": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "svelte.plugin.svelte.format.config.svelteStrictMode": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   }
 }
