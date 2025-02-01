@@ -429,13 +429,13 @@
   "catppuccin-noctis-icons.hidesExplorerArrows": false,
   "editor.codeLensFontSize": 12,
   "editor.codeLens": false,
-  "workbench.preferredDarkColorTheme": "Best Themes - Github Dark Dimmed",
+  "workbench.preferredDarkColorTheme": "Tokyo night - Unified Glow",
   "codesnap.showLineNumbers": false,
-  "workbench.iconTheme": "material-icon-theme",
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.format.config.singleQuote": true,
   "svelte.plugin.svelte.format.config.svelteStrictMode": true,
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
-  }
+  },
+  "workbench.iconTheme": "kawaii-vscode-icon-vscode"
 }

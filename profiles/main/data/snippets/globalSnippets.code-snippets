@@ -1,4 +1,18 @@
 {
+  "svelte components": {
+    "prefix": "svc",
+    "description": "svelte components",
+    "scope": "svelte",
+    "body": [
+      "<script lang=\"ts\">",
+      "  ",
+      "</script>",
+      "",
+      "<div>",
+      "  $0",
+      "</div>"
+    ]
+  },
   "solidjs effect": {
     "prefix": "soleff",
     "description": "solidjs effect",
@@ -54,7 +68,7 @@
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
   },
   "Higher Order Function": {
-    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "scope": "javascript,javascriptreact,typescript,typescriptreact,svelte",
     "prefix": "hof",
     "description": "Higher Order Function",
     "body": [
