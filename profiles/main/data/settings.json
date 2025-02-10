@@ -31,8 +31,8 @@
   "editor.fontFamily": "Kode Mono, Iosevka Curly, Comic Code, Recursive Monospace Casual Mono Casual",
   "editor.fontWeight": "400",
   "editor.fontSize": 16,
-  "editor.lineHeight": 1.6,
-  "window.zoomLevel": 1.6,
+  "editor.lineHeight": 1.7,
+  "window.zoomLevel": 1.5,
   "editor.fontLigatures": "'calt', 'dlig', 'JSPT'",
   "editor.tabSize": 2,
   "prettier.tabWidth": 2,
@@ -53,11 +53,7 @@
   "git.decorations.enabled": true,
   "window.commandCenter": false,
   "window.title": "",
-  "workbench.editor.labelFormat": "short",
   "editor.occurrencesHighlight": "off",
-
-  // --------------- 🔴 Minimal UI Settings 🔴 --------------- //
-  "workbench.sideBar.location": "right",
   "explorer.openEditors.visible": 40,
   "editor.padding.top": 12,
   "editor.guides.indentation": true,
@@ -65,7 +61,6 @@
   "workbench.tips.enabled": false,
   "window.customMenuBarAltFocus": false,
   "breadcrumbs.enabled": true,
-  "editor.lineNumbers": "off",
   // customs color settings //
   "workbench.colorCustomizations": {
     "editorBracketMatch.background": "#ffffff1a",
@@ -407,7 +402,6 @@
   "notebook.breadcrumbs.showCodeCells": false,
   "window.menuBarVisibility": "compact",
   "workbench.activityBar.location": "top",
-  "workbench.editor.showTabs": "multiple",
   "pieces.toShowUpdateExtensionNotification": false,
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
@@ -426,10 +420,8 @@
     "**/dist/**": true
   },
   "workbench.layoutControl.enabled": false,
-  "catppuccin-noctis-icons.hidesExplorerArrows": false,
   "editor.codeLensFontSize": 12,
   "editor.codeLens": false,
-  "workbench.preferredDarkColorTheme": "Tokyo night - Unified Glow",
   "codesnap.showLineNumbers": false,
   "svelte.enable-ts-plugin": true,
   "svelte.plugin.svelte.format.config.singleQuote": true,
@@ -437,5 +429,7 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "workbench.iconTheme": "kawaii-vscode-icon-vscode"
+  "workbench.preferredDarkColorTheme": "GitHub - Unified Glow",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right"
 }

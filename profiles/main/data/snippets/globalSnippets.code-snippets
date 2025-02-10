@@ -4,13 +4,13 @@
     "description": "svelte components",
     "scope": "svelte",
     "body": [
-      "<script lang=\"ts\">",
+      "<script lang=\"${1:ts}\">",
       "  ",
       "</script>",
       "",
       "<div>",
-      "  $0",
-      "</div>"
+      "  ${2:${TM_FILENAME_BASE}}",
+      "</div>$0"
     ]
   },
   "solidjs effect": {
@@ -258,7 +258,7 @@
       "  }",
       "  return context;",
       "}",
-      "",
+      ""
     ],
     "description": "Context Api Snippet",
     "scope": "typescript,typescriptreact,javascript,javascriptreact"
@@ -1533,6 +1533,80 @@
       "`;",
       "",
       "export default ${1:first};"
+    ]
+  },
+  "Svelte State": {
+    "scope": "svelte, javascript, typescript",
+    "prefix": "svst",
+    "description": "Svelte State ",
+    "body": [
+      "let ${1:stateName} = $$state(${2:initialValue})",
+      ""
+    ]
+  },
+  "Svelte Derived State": {
+    "scope": "svelte, javascript, typescript",
+    "prefix": "svdr",
+    "description": "Svelte Derived State ",
+    "body": [
+      "let ${1:derivedName} = $$derived(${2:dependentState});",
+      ""
+    ]
+  },
+  "svelte effect": {
+    "scope": "svelte, javascript, typescript",
+    "prefix": "sveff",
+    "description": "Svelte effect",
+    "body": [
+      "$$effect(() => {",
+      "  $0",
+      "});"
+    ]
+  },
+  "svelte props": {
+    "scope": "svelte, javascript, typescript",
+    "prefix": "svpr",
+    "description": "Svelte props",
+    "body": [
+      "let { $0 } = $$props()"
+    ]
+  },
+  "svelte if block": {
+    "scope": "svelte",
+    "prefix": "if",
+    "body": [
+      "{#if ${1:condition}}",
+      "  ${2:content}",
+      "{/if}"
+    ],
+    "description": "svelte if block"
+  },
+  "svelte else block": {
+    "scope": "svelte",
+    "prefix": "else",
+    "description": "svelte else block",
+    "body": [
+      "{:else}",
+      "  ${1:content}"
+    ]
+  },
+  "svelte else if block": {
+    "scope": "svelte",
+    "prefix": "else if",
+    "description": "svelte else if block",
+    "body": [
+      "{:else if ${1:condition}}",
+      "  ${2:content}"
+    ]
+  },
+  "svelte each loop": {
+    "scope": "svelte",
+    "prefix": "each",
+    "description": "svelte each loop",
+    "body": [
+      "{#each ${1:items} as ${2:item} (${3:itemId})}",
+      "  $0",
+      "{/each}"
     ]
   }
 }
