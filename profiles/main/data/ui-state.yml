@@ -14,8 +14,8 @@ eamodio.gitlens: "{\"gitlens:views:welcome:visible\":true,\"gitlens:premium:sub\
   Siyam\",\"email\":\"ikramhussaindev404@gmail.com\",\"verified\":true,\"create\
   dOn\":\"2024-10-09T00:30:57.181Z\"},\"activeOrganization\":{\"id\":\"6705cec1\
   26232d4bf720de21\",\"name\":\"ikramhussaindev404's
-  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1739150676772}},\"gitl\
-  ens:version\":\"16.2.2\",\"gitlens:synced:version\":\"16.2.2\",\"gitlens:usag\
+  organization\",\"role\":\"owner\"},\"lastValidatedAt\":1739323009719}},\"gitl\
+  ens:version\":\"16.3.0\",\"gitlens:synced:version\":\"16.3.0\",\"gitlens:usag\
   es\":{\"welcomeWebview:shown\":{\"count\":2,\"firstUsedAt\":1729827035664,\"l\
   astUsedAt\":1729827062443},\"draftsView:shown\":{\"count\":3,\"firstUsedAt\":\
   1729827198030,\"lastUsedAt\":1729907366180},\"workspacesView:shown\":{\"count\
@@ -158,13 +158,13 @@ eamodio.gitlens: "{\"gitlens:views:welcome:visible\":true,\"gitlens:premium:sub\
   sHash\":\"github.com/IkramHussainSiyam/assignment-5-quiz-application,github.c\
   om/Learn-with-Sumit/batch-2-assignment-5-quiz-application-IkramHussainSiyam\"\
   }]],\"gitlens:gk:e7a70ccb-c4cb-4445-8286-33a5bc025f03:checkin\":{\"v\":1,\"ti\
-  mestamp\":1739150675333,\"data\":{\"user\":{\"id\":\"e7a70ccb-c4cb-4445-8286-\
+  mestamp\":1739323009291,\"data\":{\"user\":{\"id\":\"e7a70ccb-c4cb-4445-8286-\
   33a5bc025f03\",\"name\":\"Ikram Hussain
   Siyam\",\"email\":\"ikramhussaindev404@gmail.com\",\"status\":\"activated\",\
   \"createdDate\":\"2024-10-09T00:30:57.181Z\"},\"licenses\":{\"paidLicenses\":\
   {},\"effectiveLicenses\":{}},\"nextOptInDate\":\"2025-01-14T00:00:00.000Z\"}},\
   \"gitlens:gk:e7a70ccb-c4cb-4445-8286-33a5bc025f03:organizations\":{\"v\":1,\"\
-  timestamp\":1739150676758,\"data\":[{\"id\":\"6705cec126232d4bf720de21\",\"na\
+  timestamp\":1739323009700,\"data\":[{\"id\":\"6705cec126232d4bf720de21\",\"na\
   me\":\"ikramhussaindev404's
   organization\",\"role\":\"owner\"}]},\"gitlens:launchpad:indicator:hasLoaded\
   \":true,\"gitlens:avatars\":[[\"0a41587c2b4f39ea0d83fa639a7424dc:64\",{\"uri\
@@ -192,8 +192,20 @@ eamodio.gitlens: "{\"gitlens:views:welcome:visible\":true,\"gitlens:premium:sub\
   57365722d3432302e706e6726723d6726733d3634\",\"timestamp\":1735209179727}]],\"\
   gitlens:views:scm:grouped:welcome:dismissed\":true,\"gitlens:integrations:con\
   figured\":{\"github\":[{\"integrationId\":\"github\",\"expiresAt\":\"2058-11-\
-  14T21:54:30.558Z\",\"scopes\":\"repo,read:user,user:email\",\"cloud\":true}]}\
-  }"
+  14T21:54:30.558Z\",\"scopes\":\"repo,read:user,user:email\",\"cloud\":true}]},\
+  \"gitlens:product:config\":{\"data\":{\"promos\":[{\"key\":\"gkholiday\",\"co\
+  de\":\"GKHOLIDAY\",\"states\":[0,1,2,3,4,5],\"expiresOn\":1742194740000,\"sta\
+  rtsOn\":1738825140000,\"content\":{\"quickpick\":{\"detail\":\"$(star-full)
+  Save up to 80% on GitLens Pro\"},\"webview\":{\"info\":{\"html\":\"<b>Save up
+  to 80%</b> on GitLens Pro\"},\"link\":{\"html\":\"<b>Save up to 80%</b> on
+  GitLens Pro\",\"title\":\"Upgrade now and save up to 80% on GitLens
+  Pro\"}}},\"percentile\":50},{\"key\":\"pro50\",\"states\":[0,1,2,3,4,5],\"loc\
+  ations\":[\"home\",\"account\",\"badge\",\"gate\"],\"content\":{\"quickpick\"\
+  :{\"detail\":\"$(star-full) Save 33% or more on GitLens
+  Pro\"},\"webview\":{\"info\":{\"html\":\"<b>Save 33% or more</b> on GitLens
+  Pro\"},\"link\":{\"html\":\"<b>Save 33% or more</b> on GitLens
+  Pro\",\"title\":\"Upgrade now and save 33% or more on GitLens
+  Pro\"}}}}]},\"v\":1,\"timestamp\":1739323885650}}"
 MeshIntelligentTechnologiesInc.pieces-vscode: '{"pieces.anonymousId":"7af73be2-117e-4271-bf7f-af311591e7fe","onboarded":true,"hasRanServer":true,"did-show-insert-education-notification":true,"copilot-state-flutter":"{\"context\":{\"conversations\":{},\"global\":{\"websites\":[],\"anchors\":[],\"ltm\":{\"continuous\":true,\"hint\":true}}},\"aesthetics\":{\"global\":{\"userColor\":null,\"systemColor\":null}},\"runtime\":{\"global\":{\"selected\":\"GPT-4o\",\"downloads\":{\"Phi-2\":{\"status\":\"FAILED\",\"counter\":900},\"Code
   Gemma 1.1 7B\":{\"status\":\"FAILED\",\"counter\":900},\"Gemma 1.1
   2B\":{\"status\":\"FAILED\",\"counter\":900},\"Llama 2
@@ -354,8 +366,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   'uninitialized'\"},{\"when\":\"enableSyncActivityViews\"},{\"when\":\"enableS\
   yncActivityViews\"}]},{\"id\":\"workbench.view.editSessions\",\"themeIcon\":{\
   \"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
-  Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
-  ]"
+  Changes\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.activityBar.location: top
 workbench.auxiliarybar.pinnedPanels: '[{"id":"workbench.views.service.auxiliarybar.e5f619f4-cdd0-4ea1-b7e1-d448380b5ec4","pinned":true,"visible":false},{"id":"workbench.view.extension.tabs","pinned":true,"visible":false,"order":13},{"id":"workbench.view.extension.liveshare","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.iridium","pinned":true,"visible":false,"order":13},{"id":"workbench.view.debug","pinned":true,"visible":false,"order":3},{"id":"workbench.views.service.auxiliarybar.39baca46-c099-4237-8f53-fe6a1fc160b7","pinned":true,"visible":false},{"id":"workbench.view.extension.snippets-manager-explorer","pinned":true,"visible":false,"order":17},{"id":"workbench.view.extension.pieces-explorer-activity-bar","pinned":true,"visible":false,"order":16},{"id":"workbench.view.extension.pieces-copilot","pinned":false,"visible":false,"order":14},{"id":"workbench.view.extension.codeium","pinned":true,"visible":false,"order":8},{"id":"workbench.view.extension.chatgpt-activitybar","pinned":true,"visible":false,"order":11},{"id":"workbench.panel.chatEditing","pinned":true,"visible":false,"order":101},{"id":"workbench.panel.chat","pinned":true,"visible":false,"order":100},{"id":"workbench.view.extension.pieces-saved-materials","pinned":false,"visible":false,"order":15}]'
 workbench.auxiliarybar.placeholderPanels: "[{\"id\":\"workbench.views.service.a\
@@ -414,7 +425,7 @@ workbench.auxiliarybar.placeholderPanels: "[{\"id\":\"workbench.views.service.a\
 workbench.auxiliaryBar.size: "499"
 workbench.chat.hideMovedChatWelcomeView: "true"
 workbench.chat.hideWelcomeView: "true"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["snippets",true],["typescriptreact",true],["typescript",true],["json",true],["css",true],["ignore",true],["log",true],["plaintext",true],["html",true],["svelte",true],["javascript",true],["jsonc",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["snippets",true],["typescriptreact",true],["css",true],["ignore",true],["log",true],["json",true],["html",true],["typescript",true],["javascript",true],["svelte",true],["plaintext",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":true,"order":2},{"id":"timeline","isHidden":false,"order":3},{"id":"workbench.explorer.openEditorsView","isHidden":false,"order":1},{"id":"workbench.explorer.emptyView","isHidden":false,"order":0},{"id":"npm","isHidden":false,"order":4},{"id":"workbench.explorer.fileView","isHidden":false,"order":0},{"id":"liveshare.session.explorer","isHidden":false},{"id":"gitpod-login","isHidden":false},{"id":"gitpod-workspaces","isHidden":false},{"id":"gitpod-workspace","isHidden":false},{"id":"gistpad.gists","isHidden":false},{"id":"gistpad.repos","isHidden":false},{"id":"gistpad.showcase","isHidden":false},{"id":"codeium.chatPanelView","isHidden":false},{"id":"continue.continueGUIView","isHidden":false},{"id":"codetour.tours","isHidden":false},{"id":"chatgpt.sidebar","isHidden":false},{"id":"todo-tree-view","isHidden":false},{"id":"postman-for-vscode.sidebar-panel","isHidden":false},{"id":"postman-console-view","isHidden":false},{"id":"liveshare.session","isHidden":false},{"id":"liveshare.help","isHidden":false},{"id":"liveshare.devtools","isHidden":false},{"id":"supermaven-view","isHidden":false},{"id":"tabnine.chat","isHidden":false},{"id":"tabnine.chat.preview_ended","isHidden":false},{"id":"tabnine.chat.authenticate","isHidden":false},{"id":"tabnine.chat.not_part_of_a_team","isHidden":false},{"id":"tabnine.loading","isHidden":false},{"id":"snippetExplorer","isHidden":false},{"id":"snippetScopeExplorer","isHidden":false},{"id":"codesnippetsai.view","isHidden":false},{"id":"codesnippetsai.treeView","isHidden":false},{"id":"discordTreeView","isHidden":false},{"id":"iridium.npm","isHidden":false},{"id":"todo.views.1files","isHidden":false},{"id":"todo.views.2embedded","isHidden":false},{"id":"todo-list","isHidden":false},{"id":"snippetsmanager-snippetsView-WorkspaceSnippetsExplorerView","isHidden":false},{"id":"snippetsmanager-snippetsView-UserSnippetsExplorerView","isHidden":false},{"id":"snippetsmanager-snippetsView-ExtensionSnippetsExplorerView","isHidden":false},{"id":"snippetsmanager-snippetsView-HelpAndFeedback","isHidden":false},{"id":"snippets-manager-sleek-snippetsView-WorkspaceSnippetsExplorerView","isHidden":false},{"id":"snippets-manager-sleek-snippetsView-UserSnippetsExplorerView","isHidden":false},{"id":"snippets-manager-sleek-snippetsView-ExtensionSnippetsExplorerView","isHidden":false},{"id":"tomjsSnippetsManager","isHidden":false},{"id":"easySnippets","isHidden":false},{"id":"snippetsExplorer","isHidden":false},{"id":"wsSnippetsExplorer","isHidden":false},{"id":"sqlite.explorer","isHidden":false},{"id":"frontMatter.explorer","isHidden":false},{"id":"thunder-client-sidebar","isHidden":false},{"id":"betterOpenEditors","isHidden":false},{"id":"openFiles","isHidden":false},{"id":"tab-groups-groups","isHidden":false},{"id":"tabsTreeView","isHidden":false},{"id":"SnippetsManager","isHidden":false},{"id":"piecesCopilot","isHidden":false},{"id":"piecesSavedMaterials","isHidden":false},{"id":"launchNewUi","isHidden":false},{"id":"snippetTree","isHidden":false},{"id":"suggestedSnippetsTree","isHidden":false},{"id":"explainedSnippetsTree","isHidden":false},{"id":"relatedSnippetsTree","isHidden":false},{"id":"connect","isHidden":false},{"id":"about","isHidden":false},{"id":"learn-vim","isHidden":false},{"id":"allSnipps","isHidden":false},{"id":"terminalSnipps","isHidden":false}]'
 workbench.grid.size: '{"height":768,"width":1024}'
 workbench.panel.alignment: center

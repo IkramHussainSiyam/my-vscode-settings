@@ -412,7 +412,6 @@
     "markdown": false,
     "scminput": false
   },
-  "workbench.externalBrowser": "chrome",
   "terminal.external.windowsExec": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "files.watcherExclude": {
     "**/node_modules/**": true,
