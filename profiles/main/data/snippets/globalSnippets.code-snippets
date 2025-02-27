@@ -1608,5 +1608,16 @@
       "  $0",
       "{/each}"
     ]
+  },
+  "svelte snippet": {
+    "scope": "svelte",
+    "prefix": "snip",
+    "description": "svelte snippet",
+    "body": [
+      "{#snippet ${1:snipName}(${2:params})}",
+      "  $0",
+      "{/snippet} ",
+      ""
+    ]
   }
 }

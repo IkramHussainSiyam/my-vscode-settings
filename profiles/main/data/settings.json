@@ -1,34 +1,11 @@
 {
-  // ----------------------------------
-  //  🔴 SYNC SETTINGS REPO CONFIG 🔴
-  // ----------------------------------
-
-  // hostname: IkramHussainSiyam
-  // profile: main
-  // repository:
-  //   type: git
-  //   url: https://github.com/IkramHussainSiyam/my-vscode-settings.git
-  //   branch: master
-
-  // ----- token color customaization ----- //
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": " ",
-        "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
-  },
-
   // ----- Custom CSS and JS Loader Settings ----- //
   "vscode_custom_css.imports": [
     "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css-js/style.css"
   ],
 
   // ----- fonts settings ----- //
-  "editor.fontFamily": "Kode Mono, Iosevka Curly, Comic Code, Recursive Monospace Casual Mono Casual",
+  "editor.fontFamily": "Monaspace Radon, Kode Mono, Recursive Monospace Casual Mono Casual, Iosevka Curly, Comic Code, monospace",
   "editor.fontWeight": "400",
   "editor.fontSize": 16,
   "editor.lineHeight": 1.7,
@@ -43,7 +20,7 @@
   "terminal.integrated.cursorStyleInactive": "none",
   "editor.mouseWheelZoom": true,
   "workbench.editor.splitInGroupLayout": "vertical",
-  "workbench.preferredLightColorTheme": "Next.Js - Unified Glow",
+  "workbench.preferredLightColorTheme": "Tokyo night - Unified Glow",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "workbench.list.smoothScrolling": true,
   "workbench.layoutControl.type": "toggles",
@@ -369,7 +346,6 @@
     "*.sdb": "${capture}.${extname}-*",
     "*.s3db": "${capture}.${extname}-*"
   },
-  "terminal.integrated.tabs.location": "left",
   "explorer.compactFolders": false,
   "files.autoSave": "afterDelay",
   "breadcrumbs.showArrays": false,
@@ -428,7 +404,8 @@
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
-  "workbench.preferredDarkColorTheme": "GitHub - Unified Glow",
+  "workbench.preferredDarkColorTheme": "Ayu - Unified Glow",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "none"
 }

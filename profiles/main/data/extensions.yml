@@ -7,6 +7,8 @@ disabled:
     uuid: 1443de72-f3fe-470e-a564-2d90c2a2754e
   - id: kuone.sequence-number
     uuid: 19e82df3-c71f-459f-bcd6-ea419abd18c3
+  - id: MeshIntelligentTechnologiesInc.pieces-vscode
+    uuid: 0c0d1bed-a084-4948-bbca-be49b0315f64
   - id: ms-vsliveshare.vsliveshare
     uuid: 5a6dc0d5-dc02-4121-8e24-cad33a2ff0af
   - id: pomdtr.excalidraw-editor
@@ -22,6 +24,8 @@ disabled:
 enabled:
   - id: adpyke.codesnap
     uuid: 8c1fc960-44b1-45e8-89b5-85f982fdaf27
+  - id: bbugh.change-color-format
+    uuid: 442d2b7b-5280-4112-8488-055f1360521f
   - id: be5invis.vscode-custom-css
     uuid: 1b160753-ae5e-42bb-82ad-d115ce5c10f4
   - id: bradlc.vscode-tailwindcss
@@ -46,8 +50,6 @@ enabled:
     uuid: 17d45560-0c70-4fb6-b157-9ecc85d8e5a0
   - id: ionutvmi.path-autocomplete
     uuid: 0d1241e3-fa60-4f24-8f2a-6d7085677c48
-  - id: MeshIntelligentTechnologiesInc.pieces-vscode
-    uuid: 0c0d1bed-a084-4948-bbca-be49b0315f64
   - id: ms-vscode.vscode-typescript-next
     uuid: 15305aca-2588-4ca0-8147-ab2c64730b82
   - id: PKief.material-icon-theme
