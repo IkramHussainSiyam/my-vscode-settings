@@ -1,4 +1,12 @@
 {
+  // ----------- 🔴 Sync Setting(s) Repo Config 🔴 ----------------- //
+  // hostname: IkramHussainSiyam
+  // profile: main
+  // repository:
+  //   type: git
+  //   url: https://github.com/IkramHussainSiyam/my-vscode-settings.git
+  //   branch: master
+
   // ----- Custom CSS and JS Loader Settings ----- //
   "vscode_custom_css.imports": [
     "file:///D:/Work/frontend-development/2-setting-and-tips/vscode/custom-css-js/style.css"
